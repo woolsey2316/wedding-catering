@@ -3,7 +3,8 @@ module.exports = {
     fontFamily: {
       'nunito': ['Nunito', 'sans-serif'],
       'rubik': ['Rubik', 'sans-serif'],
-      'parisienne': ['Parisienne', 'serif']
+      'parisienne': ['Parisienne', 'serif'],
+      'playfair' : ['Playfair Display', 'serif']
     },
     extend: {
       backgroundImage: {
@@ -11,6 +12,12 @@ module.exports = {
         'wedding-table-h': "linear-gradient(rgba(255,138,101,0.4),rgba(255,138,101,0.4)),url('../assets/home/g2-768x512.jpg')",
         'food-on-stump': "url('../assets/home/g1e-768x512.jpg')",
         'food-on-stump-h': "linear-gradient(rgba(255,138,101,0.4),rgba(255,138,101,0.4)),url('../assets/home/g1e-768x512.jpg')",
+        'necklace': "url('../assets/home/g3-768x513.jpg')",
+        'necklace-h': "linear-gradient(rgba(255,138,101,0.4),rgba(255,138,101,0.4)),url('../assets/home/g3-768x513.jpg')",
+        'cupcake': "url('../assets/home/g4-768x613.jpg')",
+        'cupcake-h': "linear-gradient(rgba(255,138,101,0.4),rgba(255,138,101,0.4)),url('../assets/home/g4-768x613.jpg')",
+        'scene': "url('../assets/home/7.jpg')",
+        'scene-tint': "linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('../assets/home/7.jpg')",
       },
       colors: {
         coral: '#ff8a65',
@@ -24,7 +31,11 @@ module.exports = {
           '700': '#616161',
           '800': '#424242',
           '900': '#212121',
-        }
+        },
+        gold: {
+          '800': '#ffb74d'
+        },
+        rich_black: "#111111"
       },
       spacing: {
         '72': '18rem',

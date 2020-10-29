@@ -1,0 +1,39 @@
+import React from 'react'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faFacebookF,
+  faInstagram,
+  faYoutube,
+  faTwitter,
+  faPinterestP,
+} from '@fortawesome/free-brands-svg-icons'
+
+function Footer() {
+  return (
+    <div className="flex justify-center bg-rich_black py-10">
+      <div className="flex items-center mr-5">
+        <FontAwesomeIcon style={{color: "#0d47a1"}} icon={faFacebookF}/>
+        <a className="ml-2 uppercase cursor-pointer font-nunito font-bold text-gray-500 text-sm hover:text-coral transition-color duration-350 ease-in-out">Facebook</a>
+      </div>
+      <div className="flex items-center mr-5">
+        <FontAwesomeIcon style={{color: "#4D7A9E"}} icon={faInstagram}/>
+        <a className="ml-2 uppercase cursor-pointer font-nunito font-bold text-gray-500 text-sm hover:text-coral transition-color duration-350 ease-in-out">Instagram</a>
+      </div>
+      <div className="flex items-center mr-5">
+        <FontAwesomeIcon style={{color: "#ff0000"}} icon={faYoutube}/>
+        <a className="ml-2 uppercase cursor-pointer font-nunito font-bold text-gray-500 text-sm hover:text-coral transition-color duration-350 ease-in-out">Youtube</a>
+      </div>
+      <div className="flex items-center mr-5">
+        <FontAwesomeIcon style={{color: "#40c4ff"}} icon={faTwitter}/>
+        <a className="ml-2 uppercase cursor-pointer font-nunito font-bold text-gray-500 text-sm hover:text-coral transition-color duration-350 ease-in-out">Twitter</a>
+      </div>
+      <div className="flex items-center mr-5">
+        <FontAwesomeIcon style={{color: "#bd081c"}} icon={faPinterestP}/>
+        <a className="ml-2 uppercase cursor-pointer font-nunito font-bold text-gray-500 text-sm hover:text-coral transition-color duration-350 ease-in-out">Pinterest</a>
+      </div>
+    </div>
+  )
+}
+
+export { Footer }

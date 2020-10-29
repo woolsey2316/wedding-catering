@@ -1,16 +1,21 @@
 import styles from '../styles/Home.module.css'
-import { SideNav, LandingPage, AboutUsSection } from '../components'
+import { SideNav, LandingPage, AboutUsSection, ServicesSection, SeasonalMenu, ReviewSection, ContactSection, Footer } from '../components'
 
 export default function Home() {
   return (
     <div className="flex flex-col justify-center">
-      <main className="flex">
+      <div className="flex">
         <SideNav/>
         <div className="w-full">
           <LandingPage/>
           <AboutUsSection/>
+          <ServicesSection/>
+          <SeasonalMenu/>
+          <ReviewSection/>
+          <ContactSection/>
+          <Footer/>
         </div>
-      </main>
+      </div>
     </div>
   )
 }
