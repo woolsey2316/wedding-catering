@@ -7,6 +7,10 @@ module.exports = {
       'playfair' : ['Playfair Display', 'serif']
     },
     extend: {
+      fontSize: {
+        'h1': '50px',
+        'h2': '42px'
+      },
       backgroundImage: {
         'wedding-table': "url('../assets/home/g2-768x512.jpg')",
         'wedding-table-h': "linear-gradient(rgba(255,138,101,0.4),rgba(255,138,101,0.4)),url('../assets/home/g2-768x512.jpg')",
@@ -35,7 +39,8 @@ module.exports = {
         gold: {
           '800': '#ffb74d'
         },
-        rich_black: "#111111"
+        rich_black: "#111111",
+        
       },
       spacing: {
         '72': '18rem',

@@ -12,7 +12,7 @@ function AboutUsSection() {
     <div className="flex flex-col sm:flex-row items-center p-4">
       <div className="flex-1 mr-5">
         <h1 className="font-parisienne font-semibold text-5xl">About Us</h1>
-        <p className="font-rubik text-gray-600 font-medium">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-gray-600">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.
           <br/>
@@ -60,7 +60,7 @@ function AboutUsSection() {
         </div>
       </div>
       <div className="w-1/4 ml-5 inline-block">
-        <p className="font-rubik text-gray-600 font-medium ml-2 mb-5">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-gray-600 ml-2 mb-5">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.
           <br/>
