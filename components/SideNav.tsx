@@ -16,13 +16,13 @@ export default function SideNav() {
             <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/Services">SERVICES</a>
           </li>
           <li className="mb-5">
-            <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/About Us">ABOUT US</a>
+            <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/AboutUs">ABOUT US</a>
           </li>
           <li className="mb-5">
-            <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/Contact Us">CONTACT US</a>
+            <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/ContactUs">CONTACT US</a>
           </li>
           <li className="mb-5">
-            <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/Our Blog">OUR BLOG</a>
+            <a className="font-nunito font-bold text-gray-800 hover:text-coral transition-colors duration-300 ease-in-out" href="/OurBlog">OUR BLOG</a>
           </li>
         </ul>
       </div>

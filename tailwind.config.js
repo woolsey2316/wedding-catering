@@ -22,6 +22,7 @@ module.exports = {
         'cupcake-h': "linear-gradient(rgba(255,138,101,0.4),rgba(255,138,101,0.4)),url('../assets/home/g4-768x613.jpg')",
         'scene': "url('../assets/home/7.jpg')",
         'scene-tint': "linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('../assets/home/7.jpg')",
+        'platter-tint': "linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('../assets/about us/g1e.jpg')",
       },
       colors: {
         coral: '#ff8a65',
