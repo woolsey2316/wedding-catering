@@ -1,4 +1,6 @@
 export { BlogLink } from './BlogLink'
+export { BlogGallery } from './BlogGallery'
+export { BlogTile } from './BlogTile'
 export { SideNav } from './SideNav'
 export { LandingPage } from './LandingPage'
 export { AboutUs } from './AboutUs'

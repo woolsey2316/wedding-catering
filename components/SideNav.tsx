@@ -28,7 +28,7 @@ export default function SideNav() {
       </div>
       <div>
         <h4 className="font-nunito font-bold text-gray-800 uppercase border-b border-gray-800">Recent Posts</h4>
-        <div className="absolute pt-px -mt-px mb-px bg-coral border-2 border-t border-coral w-10 mb-5"></div>
+        <div className="absolute pt-px -mt-2px bg-coral border-1 border border-coral w-10 mb-5 h-1px"></div>
         <BlogLinkContainer/>
       </div>
     </div>

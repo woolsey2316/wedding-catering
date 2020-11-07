@@ -6,10 +6,17 @@ module.exports = {
       'parisienne': ['Parisienne', 'serif'],
       'playfair' : ['Playfair Display', 'serif']
     },
+    opacity: {
+      '85': .85
+    },
     extend: {
+      margin: {
+        '-2px': '-2px'
+      },
       fontSize: {
         'h1': '50px',
-        'h2': '42px'
+        'h2': '42px',
+        'h4': '27px'
       },
       backgroundImage: {
         'wedding-table': "url('../assets/home/g2-768x512.jpg')",
