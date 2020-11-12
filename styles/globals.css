@@ -15,3 +15,13 @@ a {
   box-sizing: border-box;
 }
 
+.sidenav::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar 
+  for IE and Edge */
+.sidenav {
+  -ms-overflow-style: none;
+} 
+

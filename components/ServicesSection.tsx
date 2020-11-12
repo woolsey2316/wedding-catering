@@ -9,9 +9,9 @@ function ServicesSection() {
   return (
     <>
     <div className="p-4 bg-gray-100">
-      <div className="flex-1 mr-5">
+      <div className="flex-1 mr-5 pb-16">
         <h1 className="font-parisienne font-semibold text-5xl text-center">Our Services</h1>
-        <p className="font-rubik text-gray-600 font-medium text-center">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-gray-600 text-center px-24">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.
         </p>
@@ -21,7 +21,7 @@ function ServicesSection() {
           <img src="home/3-1024x683.jpg"/>
           <div className="p-10">
             <h1 className="font-parisienne font-semibold text-5xl">Wedding Catering</h1>
-            <p className="font-rubik text-gray-600 font-medium">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+            <p className="font-rubik text-gray-600">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
               cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
               placeat facere.
             </p>
@@ -31,7 +31,7 @@ function ServicesSection() {
           <img src="home/4-1024x683.jpg"/>
           <div className="p-10">
             <h1 className="font-parisienne font-semibold text-5xl">Wedding Gifts</h1>
-            <p className="font-rubik text-gray-600 font-medium">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+            <p className="font-rubik text-gray-600">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
               cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
               placeat facere.
             </p>
@@ -42,7 +42,7 @@ function ServicesSection() {
         <img className="w-1/2" src="home/5-1024x681.jpg"/>
         <div className="p-10 bg-white">
           <h1 className="font-parisienne font-semibold text-5xl">Wedding Gifts</h1>
-          <p className="font-rubik text-gray-600 font-medium mb-5">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+          <p className="font-rubik text-gray-600 mb-5">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
             cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
             placeat facere.
           </p>

@@ -1,5 +1,5 @@
 declare module "*.png" {
-  const value: string;
+  const value: any;
   export = value;
 }
 
@@ -9,6 +9,16 @@ declare module "*.jpg" {
 }
 
 declare module "*.jpeg" {
-  const value: string;
+  const value: any;
+  export = value;
+}
+
+declare module "*.svg" {
+  const value: any;
+  export = value;
+}
+
+declare module "*.ico" {
+  const value: any;
   export = value;
 }

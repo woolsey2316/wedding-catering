@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlogLink } from '../components'
+import { BlogLinkThumbnail, BlogLinkMainThumbnail } from '../components'
 
 interface Blog {
   image: string;
@@ -17,20 +17,31 @@ const bloglinks : BlogList = [
   {image: '5.jpg', link: '/blog/blog5', title: 'Step into Spring with Jenny Yoo’s Flirty and Floral Spring 2019 Collection'}
 ]
 
-function BlogLinkContainer() {
+function RecommendedBlogs() {
   return (
-    <ul>
+    <ul className="grid grid-cols-2 col-gap-5 mb-12">
+      <div className="col-span-2">
+        <h4 className="font-nunito font-bold text-gray-800 uppercase border-b border-gray-800 pb-2">Recommended Blog Posts</h4>
+        <div className="absolute pt-px -mt-2px bg-coral border-1 border border-coral w-10 mb-5 h-1px"></div>
+        <BlogLinkMainThumbnail
+          key={0}
+          image={bloglinks[0].image}
+          link={bloglinks[0].link}
+          title={bloglinks[0].title}
+        />
+      </div>
       { bloglinks.map((blog, index) => 
-        <BlogLink
+        index > 0 &&
+        <BlogLinkThumbnail
           key={index}
           image={blog.image}
           link={blog.link}
           title={blog.title}
-          flexDirection='flex-row'
+          flexDirection='flex-col'
         />
       )}
     </ul>
   )
 }
 
-export {BlogLinkContainer}
+export {RecommendedBlogs}

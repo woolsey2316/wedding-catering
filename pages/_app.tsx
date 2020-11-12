@@ -7,8 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="flex flex-col justify-center">
       <div className="flex">
-        <SideNav/>
-        <div className="w-full">
+        <div className="z-50 lg:w-84">
+          <SideNav/>
+        </div>
+        <div className="w-full lg:w-body">
           <Component {...pageProps} />
         </div>
       </div>
