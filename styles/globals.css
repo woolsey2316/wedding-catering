@@ -25,3 +25,7 @@ a {
   -ms-overflow-style: none;
 } 
 
+.awssld {
+  --content-background-color: transparent
+}
+
