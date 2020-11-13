@@ -23,7 +23,8 @@
     "import-image.d.ts",
     "postcss.config.js",
     "**/*.ts",
-    "**/*.tsx", "actions/blog.js"
+    "**/*.tsx",
+    "actions/blog.js"
   ],
   "exclude": [
     "node_modules"

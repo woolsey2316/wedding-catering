@@ -37,7 +37,6 @@ function RecommendedBlogs() {
           image={blog.image}
           link={blog.link}
           title={blog.title}
-          flexDirection='flex-col'
         />
       )}
     </ul>
