@@ -77,7 +77,7 @@ function CommentForm() {
           )}
         </div>
         <div className="grid grid-cols-12 gap-8">
-          <div className="col-span-4">
+          <div className="col-span-6">
             <input
               type="text"
               name="name"
@@ -90,7 +90,7 @@ function CommentForm() {
               <div className="text-theme-6 mt-2">Full Name is required</div>
             )}
           </div>
-          <div className="col-span-4">
+          <div className="col-span-6">
             <input
               type="text"
               name="email"
@@ -102,20 +102,6 @@ function CommentForm() {
             />
             {user.submitted && !user.email && (
               <div className="text-theme-6 mt-2">Email is required</div>
-            )}
-          </div>
-          <div className="col-span-4">
-            <input
-              type="text"
-              name="subject"
-              className="border border-gray-400 px-4 py-2 w-full mt-4 placeholder-gray-600 text-gray-700"
-              style={{ borderColor: isValidEmail() ? '' : '#D32929' }}
-              placeholder="Subject"
-              value={user.subject}
-              onChange={handleInputChange}
-            />
-            {user.submitted && !user.subject && (
-              <div className="text-theme-6 mt-2">Subject is required</div>
             )}
           </div>
         </div>
