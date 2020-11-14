@@ -8,6 +8,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 function ReviewSection() {
   return (

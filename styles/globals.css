@@ -26,6 +26,6 @@ a {
 } 
 
 .awssld {
-  --content-background-color: transparent
+  --content-background-color: transparent !important
 }
 

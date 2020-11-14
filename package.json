@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "deploy": "yarn run build && now ./build --name=wedding-blog-spa"
   },
   "dependencies": {
