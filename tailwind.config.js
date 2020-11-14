@@ -10,6 +10,9 @@ module.exports = {
       '85': .85
     },
     extend: {
+      borderWidth: {
+        '50': '50px',
+      },
       margin: {
         '-2px': '-2px'
       },

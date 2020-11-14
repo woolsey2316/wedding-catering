@@ -3,7 +3,7 @@ import { BlogTile } from './BlogTile'
 
 function BlogGallery() {
   return (
-    <div className="grid grid-cols-12 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
       <BlogTile link="blog/blog1" title="Head to Toe Blueprints for Styling a Classic Themed Wedding" src="our blog/1-2-585x390.jpg" category="Planning" author="Penci Design" date="June 23, 2019" preview="Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla onsequat massa quis … "/>
       <BlogTile link="blog/blog2" title="The Most Fabulous & Beautiful Floral Wedding Dresses To Flaunt in 2019" src="our blog/2-585x390.jpg" category="Beauty" author="Penci Design" date="June 23, 2019" preview="Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla onsequat massa quis …"/>
       <BlogTile link="blog/blog3" title="How To Save Precious Wedding Happy Memories With Wedding Photos" src="our blog/3-585x390.jpg" category="Photos" author="Penci Design" date="June 23, 2019" preview="Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla onsequat massa quis … "/>

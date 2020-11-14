@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BlogLinkContainer } from '../containers'
+import { NavButton } from './NavButton'
 
 export default function SideNav() {
+  const [show, setShow] = useState(false)
+
+  const showNav = show ? "translate-x-0" : "-translate-x-84"
+  const showNavBar = show ? "translate-x-0" : "-translate-x-84"
   return (
-    <div className="sidenav h-full lg:shadow fixed overflow-y-scroll block transform -translate-x-111 lg:translate-x-0 transition-all duration-500 ease-in-out">
-      <div className="h-full bg-white block w-84 px-5 py-8 flex-none transform -translate-x-84 lg:translate-x-0 transition-all duration-500 ease-in-out">
+    <>
+    <div className={`sidenav bg-green h-full lg:shadow fixed overflow-y-scroll block transform ${showNav} lg:translate-x-0 transition-all duration-500 ease-in-out`}>
+      <div className={`h-full bg-white block w-84 px-5 py-8 flex-none transform ${showNavBar} lg:translate-x-0 transition-all duration-500 ease-in-out`}>
         <div className="w-1/2 mx-auto">
           <img className="h-auto max-w-full" src='/logo.png' alt="logo"/>
         </div>
@@ -33,7 +39,9 @@ export default function SideNav() {
           <BlogLinkContainer/>
         </div>
       </div>
-    </div>
+      </div>
+      <NavButton setShow={setShow}/>
+    </>
   )
 }
 export { SideNav }

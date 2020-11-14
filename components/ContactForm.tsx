@@ -60,9 +60,9 @@ function ContactForm() {
   }
 
   return (
-    <div className="text-center my-12">
+    <div className="text-center px-1 my-12">
       <h1 className="font-parisienne text-h1 font-semibold">Send Us A Message</h1>
-      <p className="font-rubik text-gray-700 px-24">Et harum quidem rerum facilis est et expedita distinctio.
+      <p className="font-rubik text-gray-700 md:px-24">Et harum quidem rerum facilis est et expedita distinctio.
         Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.
         </p>
       <form name="form" onSubmit={handleSubmit}>

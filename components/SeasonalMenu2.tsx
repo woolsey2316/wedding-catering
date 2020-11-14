@@ -5,7 +5,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
 function SeasonalMenu2() {
   return (
-    <div className="flex mt-5">
+    <div className="lg:flex mt-5">
       <div className="p-10">
         <img src="home/6-1024x1024.jpg"/>
       </div>

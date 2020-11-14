@@ -19,7 +19,7 @@ function ContactSection2() {
         c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
         </svg>		
       </div>
-      <div className="grid grid-cols-12 bg-gray-100 py-10 px-4">
+      <div className="lg:grid lg:grid-cols-12 bg-gray-100 py-10 px-4">
         <div className="col-span-6 flex">
           <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faKey}></FontAwesomeIcon>

@@ -17,7 +17,7 @@ import {
 
 function FeatureSection() {
   return (
-      <div className="grid grid-cols-12 py-10 px-4 mt-48">
+      <div className="lg:grid lg:grid-cols-12 py-10 px-4 mt-48">
         <div className="col-span-4 flex">
           <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faCheck}></FontAwesomeIcon>

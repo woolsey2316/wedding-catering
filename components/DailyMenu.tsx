@@ -5,7 +5,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
 function DailyMenu() {
   return (
-    <div className="flex mt-5">
+    <div className="lg:flex mt-5">
       <div className="p-5">
         <h4 className="font-parisienne text-h1 font-semibold">Daily Menu</h4>
         <p className="font-rubik text-gray-700 mb-5">Et harum quidem rerum 

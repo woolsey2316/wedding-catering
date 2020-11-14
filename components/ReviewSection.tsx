@@ -13,12 +13,13 @@ import 'react-awesome-slider/dist/styles.css';
 function ReviewSection() {
   return (
     <div className="w-full bg-cover bg-scene-tint text-center mb-24" >
-      <div className="flex flex-col items-center p-20">
+      <div className="flex flex-col items-center py-20 lg:p-20">
         <h1 className="font-parisienne font-semibold text-5xl text-white">What Customers Say</h1>
-        <p className="font-rubik text-white px-24 -mb-20">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-white md:px-24 -mb-20">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil 
         </p>
         <AwesomeSlider
+          className="h-screen lg:h-auto"
           organicArrows={false}
           buttonContentRight={
             <div className="rounded-full bg-white opacity-75 hover:opacity-100 mt-24 w-8 h-8 cursor-pointer flex flex-col justify-center items-center">
