@@ -22,42 +22,50 @@ function AboutUsSection() {
         </p>
       </div>
       <div className="w-full mb-1 lg:mb-0 lg:w-1/3 relative lg:mr-1">
-        <div className="cursor-pointer w-88 h-64 bg-cover bg-food-on-stump hover:bg-food-on-stump-h text-xs hover:text-4xl transition-all duration-150 ease-in-out" >
-          <FontAwesomeIcon
-            className="parent-hover:size-0"
-            icon={faExpandArrowsAlt}
-            style={{ fontSize: 'inherit',color: 'white', position: 'absolute', top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
+        <a href="/_next/static/media/g1e-768x512.87f7437b7e5f727b60de48830bce3ea6.jpg">
+          <div className="cursor-pointer w-88 h-64 bg-cover text-transparent shadow-inner-opaque hover:text-white bg-food-on-stump hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <FontAwesomeIcon
+              className="parent-hover:size-0 absolute"
+              icon={faExpandArrowsAlt}
+              style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
             />
-        </div>
+          </div>
+        </a>
       </div>
       <div className="w-full lg:w-1/3 relative">
-        <div className="cursor-pointer w-88 h-64 bg-cover bg-wedding-table text-xs hover:text-4xl hover:bg-wedding-table-h transition-all duration-300 ease-in-out" >
-          <FontAwesomeIcon
-            className="parent-hover:size-0"
-            icon={faExpandArrowsAlt}
-            style={{ color: 'white', position: 'absolute', top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
-            />
-        </div>
+        <a href="/_next/static/media/g2-768x512.ebdbf48ac1c1b7739c0a8b5e08a0feb1.jpg">
+          <div className="cursor-pointer w-88 h-64 text-transparent shadow-inner-opaque hover:text-white bg-cover bg-wedding-table hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <FontAwesomeIcon
+              className="parent-hover:size-0 absolute"
+              icon={faExpandArrowsAlt}
+              style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
+              />
+          </div>
+        </a>
       </div>
     </div>
     <div className="flex flex-col sm:flex-row items-center p-4 mb-20">
       <div className="w-full lg:w-1/3 relative mr-1 inline-block">
-        <div className="cursor-pointer w-88 h-64 bg-cover bg-cupcake hover:bg-cupcake-h text-xs hover:text-4xl transition-all duration-150 ease-in-out" >
-          <FontAwesomeIcon
-            className="parent-hover:size-0"
-            icon={faExpandArrowsAlt}
-            style={{ fontSize: 'inherit',color: 'white', position: 'absolute', top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
-            />
-        </div>
+        <a href="/_next/static/media/g4-768x613.bc53d5f3697e416c0dcb3b46f34a77c7.jpg">
+          <div className="cursor-pointer w-88 h-64 text-transparent shadow-inner-opaque hover:text-white bg-cover bg-cupcake hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <FontAwesomeIcon
+              className="parent-hover:size-0 absolute"
+              icon={faExpandArrowsAlt}
+              style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
+              />
+          </div>
+        </a>
       </div>
       <div className="w-full lg:w-1/3 relative inline-block">
-        <div className="cursor-pointer w-88 h-64 bg-cover bg-necklace text-xs hover:text-4xl hover:bg-necklace-h transition-all duration-300 ease-in-out" >
-          <FontAwesomeIcon
-            className="parent-hover:size-0"
-            icon={faExpandArrowsAlt}
-            style={{ color: 'white', position: 'absolute', top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
-            />
-        </div>
+        <a href="/_next/static/media/g3-768x513.482360b5cb3722435e20df6ba6daac15.jpg">
+          <div className="cursor-pointer w-88 h-64 text-transparent shadow-inner-opaque hover:text-white bg-cover bg-necklace hover:text-4xl hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <FontAwesomeIcon
+              className="parent-hover:size-0 absolute"
+              icon={faExpandArrowsAlt}
+              style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
+              />
+          </div>
+        </a>
       </div>
       <div className="w-full lg:w-1/4 ml-5 inline-block">
         <p className="font-rubik text-gray-600 ml-2 mb-5 mt-12 lg:mt-0">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 

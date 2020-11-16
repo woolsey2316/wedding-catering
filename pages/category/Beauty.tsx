@@ -29,15 +29,15 @@ export default function Beauty() {
   return (
     <>
       <div className="pt-10 px-4">
-        <div className="grid grid-cols-1 md:grid-cols-12 py-8 gap-8">
-          <div className="md:col-span-8 justify-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 py-8 gap-8">
+          <div className="lg:col-span-8 justify-center">
             <div className="flex text-center">
               <h4 className="font-nunito text-gray-900 text-2xl uppercase">Category:</h4>
               <h4 className="font-nunito text-coral text-2xl uppercase">Beauty</h4>
             </div>
             {bloglinks.map((blog, index) => <DetailedBlogLinkThumbnail key={index} blog={blog}/>)}
           </div>
-          <div className="md:col-span-4">
+          <div className="lg:col-span-4">
             <div className="mb-5 overflow-y-auto">
               <KeepInTouch/>
               <RecommendedBlogs/>

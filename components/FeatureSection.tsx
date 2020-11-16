@@ -19,7 +19,7 @@ function FeatureSection() {
   return (
       <div className="lg:grid lg:grid-cols-12 py-10 px-4 mt-48">
         <div className="col-span-4 flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+          <div className="flex flex-col justify-center flex-shrink-0 items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faCheck}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
@@ -32,7 +32,7 @@ function FeatureSection() {
           </div>
         </div>
         <div className="col-span-4 flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-1 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+          <div className="flex flex-col justify-center flex-shrink-0 items-center rounded-full min-w-16 min-h-16 w-16 h-16 bg-coral border-1 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faLeaf}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
@@ -45,7 +45,7 @@ function FeatureSection() {
           </div>
         </div>
         <div className="col-span-4 flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+          <div className="flex flex-col justify-center flex-shrink-0 items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faUsers}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
@@ -58,7 +58,7 @@ function FeatureSection() {
           </div>
         </div>
         <div className="col-span-4 flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+          <div className="flex flex-col justify-center flex-shrink-0 items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faList}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
@@ -71,7 +71,7 @@ function FeatureSection() {
           </div>
         </div>
         <div className="col-span-4 flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+          <div className="flex flex-col justify-center flex-shrink-0 items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faThumbsUp}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
@@ -84,7 +84,7 @@ function FeatureSection() {
           </div>
         </div>
         <div className="col-span-4 flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+          <div className="flex flex-col justify-center flex-shrink-0 items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
             <FontAwesomeIcon className="text-3xl text-white" icon={faCalendarMinus}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">

@@ -10,6 +10,10 @@ module.exports = {
       '85': .85
     },
     extend: {
+      boxShadow: {
+        'inner-opaque': 'inset 250px 250px 50px 0 rgba(255, 138, 101, 0)',
+        'inner-full': 'inset 250px 250px 50px 0 rgba(255, 138, 101, 0.50)',
+      },
       borderWidth: {
         '50': '50px',
       },

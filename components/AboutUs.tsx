@@ -5,7 +5,7 @@ function AboutUs() {
     <>
       <div className="bg-gray-100 p-16 text-center">
         <h1 className="font-parisienne text-5xl font-semibold">About Us</h1>
-        <p className="font-rubik text-gray-700 md:px-48"> Et harum quidem rerum facilis est et expedita distinctio. 
+        <p className="font-rubik text-gray-700 lg:px-24 xl:px-48"> Et harum quidem rerum facilis est et expedita distinctio. 
           Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.
         </p>
       </div>
@@ -16,23 +16,22 @@ function AboutUs() {
         c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
         </svg>		
       </div>
-      <div className="lg:flex md:px-4 lg:mt-20">
+      <div className="lg:grid lg:grid-cols-2 lg:col-gap-8 md:px-4 lg:mt-20">
         <div className="w-full lg:relative mr-8 mb-56 lg:mb-0">
           <img className="w-full" src="about us/g2-1024x683.jpg"/>
-          <div className="absolute bg-white -mt-16 shadow-lg mx-8 p-8 text-center">
+          <div className="no-scroll-bar absolute bg-white -mt-16 shadow-lg mx-8 p-8 text-center h-72 overflow-y-auto">
             <h1 className="font-parisienne text-h2 font-semibold">Our Story </h1>
             <p className="font-rubik text-gray-700">At vero eos et accusamus et iusto odio dignissimos ducimus qui
             blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas 
-            molestias excepturi sint occaecati, viva la vida penci design.</p>
+            molestias excepturi sint occaecati.</p>
           </div>
         </div>
         <div className="lg:relative bg-white">
           <img src="about us/1-1024x682.jpg"/>
-          <div className="absolute bg-white -mt-16 shadow-lg mx-8 p-8 text-center">
+          <div className="no-scroll-bar absolute bg-white -mt-16 shadow-lg mx-8 p-8 text-center h-72 overflow-y-auto">
             <h1 className="font-parisienne text-h2 font-semibold">Our Core Values </h1>
             <p className="font-rubik text-gray-700">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-            blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas 
-            molestias excepturi sint occaecati, viva la vida penci design.</p>
+            blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>
           </div>
         </div>
       </div>

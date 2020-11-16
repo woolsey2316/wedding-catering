@@ -1,10 +1,5 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faExpandArrowsAlt,
-} from '@fortawesome/free-solid-svg-icons'
-
 function ServicesSection() {
   return (
     <>
@@ -16,7 +11,7 @@ function ServicesSection() {
           placeat facere.
         </p>
       </div>
-      <div className="w-full lg:flex lg:justify-between">
+      <div className="w-full lg:flex lg:justify-between lg:mb-12">
         <div className="mb-5 lg:mb-0 lg:mr-4 bg-white">
           <img src="home/3-1024x683.jpg"/>
           <div className="p-10">
@@ -38,11 +33,11 @@ function ServicesSection() {
           </div>
         </div>
       </div>
-      <div className="w-full lg:flex my-8 lg:-m-4">
-        <img className="w-full lg:w-1/2" src="home/5-1024x681.jpg"/>
-        <div className="p-10 bg-white">
-          <h1 className="font-parisienne font-semibold text-5xl">Wedding Gifts</h1>
-          <p className="font-rubik text-gray-600 mb-5">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+      <div className="w-full lg:grid lg:grid-cols-2 my-8 lg:items-center lg:-ml-4">
+        <img className="max-w-100 h-auto w-full" src="home/5-1024x681.jpg"/>
+        <div className="p-10 h-full bg-white lg:-mr-4">
+          <h1 className="font-parisienne font-semibold text-5xl mb-2">Wedding Gifts</h1>
+          <p className="font-rubik text-gray-600 mb-10">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
             cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
             placeat facere.
           </p>
