@@ -4,9 +4,9 @@
 
 @import 'react-awesome-slider/dist/styles.css';
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Parisienne&family=Rubik:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
 .awssld {
   --content-background-color: transparent
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Parisienne&family=Rubik:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
 
