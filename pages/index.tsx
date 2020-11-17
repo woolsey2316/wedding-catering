@@ -5,12 +5,7 @@ export default function Home() {
   return (
     <>
       <LandingPage/>
-      <AboutUsSection/>
-      <ServicesSection/>
-      <SeasonalMenu/>
-      <ReviewSection/>
-      <ContactSection/>
-      <Footer/>
+
     </>
         
   )

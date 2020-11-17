@@ -6,6 +6,14 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -23,6 +31,7 @@ a {
   for IE and Edge */
 .no-scroll-bar {
   -ms-overflow-style: none;
+  scrollbar-width: none;
 } 
 
 .awssld {
