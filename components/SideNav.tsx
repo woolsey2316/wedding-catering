@@ -12,7 +12,7 @@ export default function SideNav() {
     <div className={`no-scroll-bar bg-green h-full md:shadow fixed overflow-y-scroll block transform ${showNav} md:translate-x-0 transition-all duration-500 ease-in-out`}>
       <div className={`h-full bg-white block md:w-84 px-5 py-8 flex-none transform ${showNavBar} md:translate-x-0 transition-all duration-500 ease-in-out`}>
         <div className="w-1/2 mx-auto">
-          <img className="h-auto max-w-full" src='/logo.png' alt="logo"/>
+          <img width="148" height="95" className="h-auto max-w-full" src='/logo.png' alt="logo"/>
         </div>
         <div className="my-10">
           <ul>
