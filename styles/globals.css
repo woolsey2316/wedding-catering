@@ -7,12 +7,14 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-.preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
+.no-fouc {
+  visibility: hidden;
+ opacity: 0;
+}
+
+.fouc {
+ visibility: visible;
+ opacity: 1;
 }
 
 a {

@@ -1,14 +1,20 @@
 import '../styles/globals.css'
 import '../styles/tailwind.css'
 
+import { useEffect } from 'react'
 import { SideNav } from '../components'
 
-import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css' // Import the CSS
-config.autoAddCss = false // Tell Font Awesome to skip adding the CSS automatically since it's being imported above
+
 
 function MyApp({ Component, pageProps }) {
-  
+  useEffect(() => {
+    const removeFouc = (foucElement) => {
+      foucElement.className = foucElement.className.replace('no-fouc', 'fouc')
+    }
+    removeFouc(document.documentElement)
+
+  })
   return (
     <div id="root-page-elem" className="flex flex-col justify-center">
       <div className="flex">
