@@ -23,7 +23,7 @@ module.exports = {
       fontSize: {
         'h1': '50px',
         'h2': '42px',
-        'h4': '27px'
+        'h4': '27px',
       },
       backgroundImage: {
         'wedding-table': "url('../assets/home/g2-768x512.jpg')",
@@ -71,5 +71,7 @@ module.exports = {
     backgroundImage: ['responsive', 'hover', 'focus'],
     transitionProperty: ['responsive', 'hover', 'focus'],
   },
-  plugins: []
+  plugins: [
+    require('@tailwindcss/typography'),
+  ]
 }

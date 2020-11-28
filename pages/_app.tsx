@@ -4,8 +4,7 @@ import '../styles/tailwind.css'
 import { useEffect } from 'react'
 import { SideNav } from '../components'
 
-import '@fortawesome/fontawesome-svg-core/styles.css' // Import the CSS
-
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {

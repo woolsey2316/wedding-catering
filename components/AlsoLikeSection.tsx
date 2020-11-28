@@ -11,9 +11,9 @@ interface BlogList extends Array<Blog> { }
 
 export function AlsoLikeSection() {
   const bloglinks : BlogList = [
-    {image: '1.jpg', link: '/blog/blog1', title: 'Head to Toe Blueprints for Styling a Classic Themed Wedding'},
-    {image: '2.jpg', link: '/blog/blog2', title: 'The Most Fabulous & Beautiful Floral Wedding Dresses To Flaunt in 2019'},
-    {image: '3.jpg', link: '/blog/blog3', title: 'How To Save Precious Wedding Happy Memories With Wedding Photos'},
+    {image: '1.jpg', link: '/blog/post-1', title: 'Head to Toe Blueprints for Styling a Classic Themed Wedding'},
+    {image: '2.jpg', link: '/blog/post-2', title: 'The Most Fabulous & Beautiful Floral Wedding Dresses To Flaunt in 2019'},
+    {image: '3.jpg', link: '/blog/post-3', title: 'How To Save Precious Wedding Happy Memories With Wedding Photos'},
   ]
   return (
     <div className="pt-8 pb-12 border-b border-gray-300">

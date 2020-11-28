@@ -1,3 +1,6 @@
+import { MDXProvider } from '@mdx-js/react'
+import Image from 'next/image'
+import { Heading, Text, Strong, BlockQuote} from '../../components/markdown-components'
 import React from 'react'
 import { Footer } from '../../components'
 import BlogArticle from '../../components/blog/BlogArticle'
@@ -6,24 +9,26 @@ import { Categories } from '../../components/Categories'
 import KeepInTouch from '../../components/KeepInTouch'
 import { NewsletterSubscription } from '../../components/NewsletterSubscription'
 import { RecommendedBlogs } from '../../containers/RecommendedBlogs'
+import { MobileHeadPost } from '../../components/MobileHeadPost'
 
-export default function blog1() {
+export default function Layout({ children, meta }) {
   return (
-    <>
+    <MDXProvider components={{
+      img: Image,
+      h1: Heading.H1,
+      h2: Heading.H2,
+      strong: Strong,
+      blockquote: BlockQuote,
+      p: Text,
+    }}>
       <div className="pt-10 px-2">
-        <BlogImage image="/our blog/4-585x390.jpg"/>
+        <BlogImage meta={meta}/>
         <div className="md:flex py-8 gap-8">
           <div className="col-span-8">
-            <div className="lg:hidden text-center">
-              <p className="text-coral font-rubik text-sm mb-2">Planning</p>
-              <h3 className="font-nunito font-semibold text-h4">Head to Toe Blueprints for Styling a Classic Themed Wedding</h3>
-              <div className="flex items-center justify-center mb-4">  
-                <p className="font-rubik text-sm">by Penci Design</p>
-                <p className="text-xs pb-1 mx-4">|</p>
-                <p className="font-rubik text-gray-500 text-sm">June 23, 2019</p>
-              </div>
-            </div>
-            <BlogArticle/>
+            <MobileHeadPost meta={meta} isBlogPost />
+            <BlogArticle>
+              {children}
+            </BlogArticle>
           </div>
           <div className="col-span-4">
             <div className="mb-5 overflow-y-auto">
@@ -36,6 +41,6 @@ export default function blog1() {
         </div>
       </div>
       <Footer/>
-    </>
+    </MDXProvider>
   )
 }

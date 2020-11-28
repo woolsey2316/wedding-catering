@@ -1,25 +1,30 @@
 import React from 'react'
+import { HeadPost } from '../HeadPost'
+
+interface MetaInfo {
+  title: string
+  image: string
+  category: string
+  author: string
+  description: string
+  date: string
+  readTime: number
+}
 
 interface BlogImageProps {
-  image: string
+  
+  meta: MetaInfo
 }
-export default function BlogImage({image} : BlogImageProps) {
+
+export default function BlogImage({ meta } : BlogImageProps) {
   return (
     <div className="h-84 lg:h-screen w-full flex flex-col items-center justify-end" 
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 65%,rgba(0,0,0,0.75)),url('${image}')`, 
+        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 65%,rgba(0,0,0,0.75)),url('${meta.image}')`, 
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
         }}>
-      <div className="hidden lg:block text-center">
-        <p className="text-white font-rubik text-sm mb-2">Planning</p>
-        <h3 className="font-nunito text-white font-semibold text-h4">Head to Toe Blueprints for Styling a Classic Themed Wedding</h3>
-        <div className="flex items-center justify-center mb-4">  
-          <p className="text-white font-rubik text-sm">by Penci Design</p>
-          <p className="text-white text-xs pb-1 mx-4">|</p>
-          <p className="text-white font-rubik text-sm">June 23, 2019</p>
-        </div>
-      </div>
+      <HeadPost meta={meta} isBlogPost />
     </div>
   )
 }
