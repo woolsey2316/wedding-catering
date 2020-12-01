@@ -1,5 +1,4 @@
 import { MDXProvider } from '@mdx-js/react'
-import Image from 'next/image'
 import { Heading, Text, Strong, BlockQuote} from '../../components/markdown-components'
 import React from 'react'
 import { Footer } from '../../components'
@@ -14,7 +13,6 @@ import { MobileHeadPost } from '../../components/MobileHeadPost'
 export default function Layout({ children, meta }) {
   return (
     <MDXProvider components={{
-      img: Image,
       h1: Heading.H1,
       h2: Heading.H2,
       strong: Strong,

@@ -44,9 +44,9 @@ export default function Layout({ children, meta } : LayoutProps) {
           <div className="lg:col-span-8 justify-center">
             <div className="flex text-center">
               <h4 className="font-nunito text-gray-900 text-2xl uppercase">Category:</h4>
-              <h4 className="font-nunito text-coral text-2xl uppercase">{meta.name}</h4>
+              <h4 className="font-nunito text-coral text-2xl uppercase">{meta?.name}</h4>
             </div>
-            {meta.bloglinks.map((blog: Blog, index: number) => <DetailedBlogLinkThumbnail key={index} blog={blog}/>)}
+            {meta?.bloglinks.map((blog: Blog, index: number) => <DetailedBlogLinkThumbnail key={index} blog={blog}/>)}
           </div>
           <div className="lg:col-span-4">
             <div className="mb-5 overflow-y-auto">

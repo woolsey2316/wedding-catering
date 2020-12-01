@@ -12,7 +12,6 @@ backend
 /coverage
 
 # next.js
-/.next/
 /out/
 
 # production
