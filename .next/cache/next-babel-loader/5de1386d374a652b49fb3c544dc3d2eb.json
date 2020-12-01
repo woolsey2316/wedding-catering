@@ -1,1 +1,0 @@
-{"ast":null,"code":"export { Text } from './Text';\nexport { Heading } from './Heading';\nexport { BlockQuote } from './BlockQuote';\nexport { Strong } from './Strong';","map":null,"metadata":{},"sourceType":"module"}
