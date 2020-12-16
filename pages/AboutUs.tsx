@@ -1,11 +1,11 @@
 import React from 'react'
-import { AboutUs, FeatureSection, CallUsImage, Footer
-   } from '../components'
+import { Footer } from '../components'
+import { AboutUsSection, FeatureSection, CallUsImage } from '../components/about-us'
 
-export default function Services() {
+export default function AboutUs() {
   return (
     <>
-      <AboutUs/>
+      <AboutUsSection/>
       <FeatureSection/>
       <CallUsImage/>
       <Footer/>

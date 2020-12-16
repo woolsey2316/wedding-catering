@@ -1,6 +1,6 @@
 import React from 'react'
 
-function OurServices() {
+const OurServices = () => {
   return (
     <>
       <div className="bg-gray-100 p-16 text-center">

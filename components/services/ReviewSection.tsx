@@ -1,5 +1,5 @@
 import React from 'react'
-import Rating from './Rating'
+import Rating from '../Rating'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -10,7 +10,7 @@ import {
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
-function ReviewSection2() {
+const ReviewSection = () => {
   return (
     <>
     <div className="w-full bg-cover bg-scene-tint text-center my-24" >
@@ -101,4 +101,4 @@ function ReviewSection2() {
   </>
   )
 }
-export { ReviewSection2 }
+export { ReviewSection }

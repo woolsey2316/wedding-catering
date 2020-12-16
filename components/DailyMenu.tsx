@@ -3,7 +3,8 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
-function DailyMenu() {
+/* Menu */
+const DailyMenu = () => {
   return (
     <div className="lg:flex mt-5">
       <div className="p-5">

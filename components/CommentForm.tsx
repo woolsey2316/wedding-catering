@@ -1,6 +1,9 @@
 import React, { useState  } from 'react'
 
-function CommentForm() {
+/* 
+  Beginning of comment section where user enters a mesagge into a form
+*/
+const CommentForm = () => {
   function isValidEmail(): boolean {
     return (
       /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(user.email) ||

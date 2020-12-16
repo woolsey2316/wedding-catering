@@ -9,7 +9,10 @@ interface Blog {
 
 interface BlogList extends Array<Blog> { }
 
-export function AlsoLikeSection() {
+/*
+  Thumbnail list of similar blog posts to the one currently viewed
+*/
+export const AlsoLikeSection = () => {
   const bloglinks : BlogList = [
     {image: '1.jpg', link: '/blog/post-1', title: 'Head to Toe Blueprints for Styling a Classic Themed Wedding'},
     {image: '2.jpg', link: '/blog/post-2', title: 'The Most Fabulous & Beautiful Floral Wedding Dresses To Flaunt in 2019'},
@@ -34,6 +37,5 @@ export function AlsoLikeSection() {
           )}
       </div>
     </div>
-
   )
 }

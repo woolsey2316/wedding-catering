@@ -9,7 +9,7 @@ import {
 
 } from '@fortawesome/free-solid-svg-icons'
 
-function ContactSection2() {
+const ContactSection = () => {
   return (
     <>
       <div className="w-full transform rotate-180" style={{bottom: '-19px'}} data-negative="false">
@@ -76,4 +76,4 @@ function ContactSection2() {
     </>
   )
 }
-export { ContactSection2 }
+export { ContactSection }

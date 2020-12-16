@@ -1,7 +1,6 @@
 import React from 'react'
 
 export interface Props {
-  key: number;
   link: string;
   image: string;
   title: string;
@@ -9,16 +8,7 @@ export interface Props {
   index?: number;
 }
 
-interface Blog {
-  image: string;
-  link: string;
-  title: string;
-  author: string;
-  date: string;
-  category: string;
-}
-
-function DetailedBlogLinkThumbnail({blog, key}) {
+function DetailedBlogLinkThumbnail({blog}) {
   return (
     <div onClick={() => {window.location.href = blog.link}} className="xl:grid grid-cols-12 mt-6 pb-8 border-b border-gray-300">
       <img className="max-w-full height-auto w-full col-span-6 cursor-pointer hover:opacity-75 transition-opacity duration-300 ease-in-out mb-4" src={`/${blog.image}`}/>

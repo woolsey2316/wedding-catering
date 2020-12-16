@@ -3,7 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 
-function SeasonalMenu2() {
+const SeasonalMenu = () => {
   return (
     <div className="lg:flex mt-5">
       <div className="p-10">
@@ -48,4 +48,4 @@ function SeasonalMenu2() {
     </div>
   )
 }
-export { SeasonalMenu2 }
+export { SeasonalMenu }

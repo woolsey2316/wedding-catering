@@ -10,9 +10,8 @@ interface MetaInfo {
 
 interface HeadPostProps {
   meta: MetaInfo
-  isBlogPost: boolean
 }
-export const HeadPost = ({ meta, isBlogPost } : HeadPostProps) => (
+export const HeadPost = ({ meta } : HeadPostProps) => (
   <div className="hidden lg:block text-center">
     <p className="text-white font-rubik text-sm mb-2">{meta?.category}</p>
     <h3 className="font-nunito text-white font-semibold text-h4">

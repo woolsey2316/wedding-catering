@@ -8,6 +8,9 @@ export interface Props {
   flexDirection: string
 }
 
+/* 
+  A blog link on the right aside
+*/
 function BlogLink({ image, title, link } : Props) {
   return (
     <div onClick={() => {window.location.href = link}} className="flex mt-6">

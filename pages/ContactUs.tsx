@@ -1,5 +1,6 @@
 import React from 'react'
-import { ContactUsHeading, ContactForm, Footer } from '../components'
+import { Footer } from '../components'
+import { ContactUsHeading, ContactForm } from '../components/contact-us'
 
 export default function ContactUs() {
   return (

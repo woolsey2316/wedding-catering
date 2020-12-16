@@ -1,0 +1,6 @@
+export { LandingPage } from './LandingPage'
+export { AboutUsSection } from './AboutUsSection'
+export { ServicesSection } from './ServicesSection'
+export { SeasonalMenu } from './SeasonalMenu'
+export { ReviewSection } from './ReviewSection'
+export { ContactSection } from './ContactSection'

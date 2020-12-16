@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ServicesSection2() {
+const ServicesSection = () => {
   return (
     <>
       <div className="lg:flex mt-20">
@@ -39,4 +39,4 @@ function ServicesSection2() {
     </>
   )
 }
-export { ServicesSection2 }
+export { ServicesSection }

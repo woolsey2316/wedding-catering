@@ -7,7 +7,9 @@ export interface Props {
   title: string;
   date?: string;
 }
-
+/* 
+  blog link on the left side nav 
+*/
 function BlogLinkThumbnail({ image, title, link, date } : Props) {
   return (
     <div onClick={() => {window.location.href = link}} className="flex flex-col mt-6">

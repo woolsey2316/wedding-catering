@@ -9,7 +9,7 @@ export const Post = ({ post }) => {
 
   return (
     <article>
-      <HeadPost meta={meta} isBlogPost={true}/>
+      <HeadPost meta={meta}/>
       <Link href={'/blog' + link}>
         <a>Read more →</a>
       </Link>

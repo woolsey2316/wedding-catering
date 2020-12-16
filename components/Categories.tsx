@@ -1,7 +1,10 @@
 import React from 'react'
 import { Category } from './Category'
 
-export function Categories() {
+/* 
+  a series of links that direct to a individual category blog page
+*/
+const Categories = () => {
   return (
     <div className="mb-12">
       <h4 className="font-nunito font-bold text-gray-800 uppercase border-b border-gray-800 pb-2">Categories</h4>
@@ -9,7 +12,7 @@ export function Categories() {
       <Category title="Beauty" amount={4}/>
       <Category title="Photos" amount={4}/>
       <Category title="Planning" amount={4}/>
-      
     </div>
   )
 }
+export { Categories }

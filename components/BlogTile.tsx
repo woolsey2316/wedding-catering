@@ -10,7 +10,7 @@ interface Props {
   link: string
 }
 
-function BlogTile(props: Props) {
+const BlogTile = (props: Props) => {
   return (
     <>
       <div className="col-span-6">

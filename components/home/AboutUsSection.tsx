@@ -6,6 +6,9 @@ import {
   faPhoneAlt
 } from '@fortawesome/free-solid-svg-icons'
 
+/*
+  Website section that belongs to home page
+*/
 function AboutUsSection() {
   return (
     <>

@@ -1,10 +1,11 @@
 import { HeadPost } from './HeadPost'
 
-export default function BlogPost({ children, meta}) {
+const BlogPost = ({ children, meta}) => {
   return (
     <>
-      <HeadPost meta={meta} isBlogPost />
+      <HeadPost meta={meta} />
       <article>{children}</article>
     </>
   )
 }
+export default BlogPost

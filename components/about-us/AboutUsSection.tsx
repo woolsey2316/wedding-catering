@@ -1,6 +1,9 @@
 import React from 'react'
 
-function AboutUs() {
+/*
+  Website section that belongs to /aboutus
+*/
+const AboutUsSection = () => {
   return (
     <>
       <div className="bg-gray-100 p-16 text-center">
@@ -38,4 +41,4 @@ function AboutUs() {
     </>
   )
 }
-export { AboutUs }
+export { AboutUsSection }

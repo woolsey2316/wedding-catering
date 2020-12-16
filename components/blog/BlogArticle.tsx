@@ -2,7 +2,7 @@ import React from 'react'
 import { AlsoLikeSection } from '../AlsoLikeSection'
 import { CategoryLinks } from '../CategoryLinks'
 import { CommentForm } from '../CommentForm'
-import { CommentSection } from '../CommentSection'
+import { CommentSection } from '../home/CommentSection'
 import { LeaveAComment } from '../LeaveAComment'
 import { PreviousPost } from '../PreviousPost'
 

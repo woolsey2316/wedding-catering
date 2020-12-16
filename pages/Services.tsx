@@ -1,21 +1,23 @@
 import React from 'react'
-import { OurServices,
-  ServicesSection2,
-  ReviewSection2,
-  SeasonalMenu2,
+import { 
   DailyMenu,
-  ContactSection2,
   Footer } from '../components'
+import { OurServices,
+  ServicesSection,
+  ReviewSection,
+  SeasonalMenu,
+  ContactSection
+} from '../components/services'
 
 export default function Services() {
   return (
     <>
       <OurServices/>
-      <ServicesSection2/>
-      <ReviewSection2/>
-      <SeasonalMenu2/>
+      <ServicesSection/>
+      <ReviewSection/>
+      <SeasonalMenu/>
       <DailyMenu/>
-      <ContactSection2/>
+      <ContactSection/>
       <Footer/>
     </>
   )

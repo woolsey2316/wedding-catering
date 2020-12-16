@@ -2,7 +2,9 @@ import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
-
+/*
+  Menu on the home page
+*/
 function SeasonalMenu() {
   return (
     <div className="lg:flex mt-5">

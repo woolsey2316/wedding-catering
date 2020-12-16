@@ -1,6 +1,6 @@
 import React, { useState  } from 'react'
 
-function ContactForm() {
+const ContactForm = () => {
   function isValidEmail(): boolean {
     return (
       /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(user.email) ||

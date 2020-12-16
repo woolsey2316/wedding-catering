@@ -23,7 +23,7 @@ export default function BlogImage({ meta } : BlogImageProps) {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
         }}>
-      <HeadPost meta={meta} isBlogPost />
+      <HeadPost meta={meta} />
     </div>
   )
 }

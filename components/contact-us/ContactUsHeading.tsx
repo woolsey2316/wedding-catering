@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ContactUsHeading() {
+const ContactUsHeading = () => {
   return (
     <>
       <div className="bg-gray-100 text-center p-12 pb-20">

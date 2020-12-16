@@ -20,8 +20,8 @@ function ContactSection() {
       </div>
       <div className="lg:flex bg-gray-100 py-10 px-4">
         <div className="flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faKey}></FontAwesomeIcon>
+          <div className="flex flex-col justify-center items-center rounded-full text-2xl w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+            <FontAwesomeIcon className="text-white" icon={faKey}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Office Location</h1>
@@ -33,8 +33,8 @@ function ContactSection() {
           </div>
         </div>
         <div className="flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-1 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faEnvelope}></FontAwesomeIcon>
+          <div className="flex flex-col justify-center items-center rounded-full text-2xl w-16 h-16 bg-coral border-1 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+            <FontAwesomeIcon className="text-white" icon={faEnvelope}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Email Address</h1>
@@ -46,8 +46,8 @@ function ContactSection() {
           </div>
         </div>
         <div className="flex">
-          <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faPhoneAlt}></FontAwesomeIcon>
+          <div className="flex flex-col justify-center items-center rounded-full text-2xl w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
+            <FontAwesomeIcon className="text-white" icon={faPhoneAlt}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Phone Number</h1>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function BlogSectionHeading() {
+const BlogSectionHeading = () => {
   return (
     <div className="text-center p-20 mb-10">
       <h1 className="font-parisienne text-h1 font-semibold">Our Blog</h1>
