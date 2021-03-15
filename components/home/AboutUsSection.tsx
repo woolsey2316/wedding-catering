@@ -7,15 +7,15 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 
 /*
-  Website section that belongs to home page
+  About Us section at home page
 */
 function AboutUsSection() {
   return (
     <>
-    <div className="flex flex-col sm:flex-row items-center p-4">
-      <div className="flex-1 mr-5">
+    <div className="flex flex-col sm:flex-row items-center p-4 max-w-6xl mx-auto mt-12">
+      <div className="w-full flex-1 mr-5 max-w-540">
         <h1 className="font-parisienne font-semibold text-5xl">About Us</h1>
-        <p className="font-rubik text-gray-600">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-gray-600 mb-4">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.
           <br/>
@@ -24,9 +24,10 @@ function AboutUsSection() {
           lauda.
         </p>
       </div>
-      <div className="w-full mb-1 lg:mb-0 lg:w-1/3 relative lg:mr-1">
+      <div className="w-full sm:mb-0 sm:w-1/3 relative mr-1">
         <a href="/_next/static/media/g1e-768x512.87f7437b7e5f727b60de48830bce3ea6.jpg">
-          <div className="cursor-pointer w-88 h-64 bg-cover text-transparent shadow-inner-opaque hover:text-white bg-food-on-stump hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+          <div className="cursor-pointer bg-cover text-transparent shadow-inner-opaque hover:text-white hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <img className="max-w-full w-full h-auto" src="/home/g1e-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
               icon={faExpandArrowsAlt}
@@ -35,9 +36,10 @@ function AboutUsSection() {
           </div>
         </a>
       </div>
-      <div className="w-full lg:w-1/3 relative">
+      <div className="w-full sm:w-1/3 relative">
         <a href="/_next/static/media/g2-768x512.ebdbf48ac1c1b7739c0a8b5e08a0feb1.jpg">
-          <div className="cursor-pointer w-88 h-64 text-transparent shadow-inner-opaque hover:text-white bg-cover bg-wedding-table hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+          <div className="cursor-pointer text-transparent shadow-inner-opaque hover:text-white bg-cover hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <img className="max-w-full w-full h-auto" src="/home/g2-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
               icon={faExpandArrowsAlt}
@@ -47,10 +49,11 @@ function AboutUsSection() {
         </a>
       </div>
     </div>
-    <div className="flex flex-col sm:flex-row items-center p-4 mb-20">
-      <div className="w-full lg:w-1/3 relative mr-1 inline-block">
+    <div className="flex flex-col sm:flex-row items-center p-4 mb-20 max-w-6xl mx-auto">
+      <div className="w-full sm:w-1/3 relative mr-1 inline-block">
         <a href="/_next/static/media/g4-768x613.bc53d5f3697e416c0dcb3b46f34a77c7.jpg">
-          <div className="cursor-pointer w-88 h-64 text-transparent shadow-inner-opaque hover:text-white bg-cover bg-cupcake hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+          <div className="cursor-pointer text-transparent shadow-inner-opaque hover:text-white bg-cover hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <img className="max-w-full w-full h-auto" src="/home/g4-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
               icon={faExpandArrowsAlt}
@@ -59,9 +62,10 @@ function AboutUsSection() {
           </div>
         </a>
       </div>
-      <div className="w-full lg:w-1/3 relative inline-block">
+      <div className="w-full sm:w-1/3 relative inline-block">
         <a href="/_next/static/media/g3-768x513.482360b5cb3722435e20df6ba6daac15.jpg">
-          <div className="cursor-pointer w-88 h-64 text-transparent shadow-inner-opaque hover:text-white bg-cover bg-necklace hover:text-4xl hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+          <div className="cursor-pointer text-transparent shadow-inner-opaque hover:text-white bg-cover hover:text-4xl hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+            <img className="w-full h-auto" src="/home/g3-768x513.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
               icon={faExpandArrowsAlt}
@@ -70,7 +74,7 @@ function AboutUsSection() {
           </div>
         </a>
       </div>
-      <div className="w-full lg:w-1/4 ml-5 inline-block">
+      <div className="w-full sm:w-1/4 ml-5 inline-block">
         <p className="font-rubik text-gray-600 ml-2 mb-5 mt-12 lg:mt-0">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.

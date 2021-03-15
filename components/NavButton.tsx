@@ -14,8 +14,8 @@ export function NavButton({setShow} : NavButtonProps) {
   return (
     <>
       <div 
-      className="lg:-ml-24"
-      onClick={()=> {setShow(prev => !prev)}}
+      className="xmd:-ml-24"
+      onClick={()=> {setShow((prev: boolean) => !prev)}}
       style={{
         position: 'absolute',
         cursor: 'pointer',
@@ -27,7 +27,7 @@ export function NavButton({setShow} : NavButtonProps) {
         borderColor: "#ff8965 transparent transparent transparent",
       }}/>
       <FontAwesomeIcon
-        onClick={()=> {setShow(prev => !prev)}}
+        onClick={()=> {setShow((prev: boolean) => !prev)}}
         className="cursor-pointer text-white absolute z-50"
         style={{
           position: 'absolute',

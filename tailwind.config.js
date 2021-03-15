@@ -10,6 +10,9 @@ module.exports = {
       '85': .85
     },
     extend: {
+      screens: {
+        xmd: '960px'
+      },
       boxShadow: {
         'inner-opaque': 'inset 250px 250px 50px 0 rgba(255, 138, 101, 0)',
         'inner-full': 'inset 250px 250px 50px 0 rgba(255, 138, 101, 0.50)',
@@ -57,11 +60,23 @@ module.exports = {
         rich_black: "#111111",
         
       },
+      maxWidth: {
+        '1230': '1230px',
+        '1170': '1170px',
+        '570': '570px',
+        '555': '555px',
+        '540': '540px',
+        '615': '615px'
+      },
       spacing: {
         '72': '18rem',
         '84': '21rem',
         '96': '24rem',
         '108': '27rem',
+        '120': '30rem',
+        '132': '33rem',
+        '144': '36rem',
+        '156': '39rem',
         'body': 'calc(100% - 21rem)'
       }
     }

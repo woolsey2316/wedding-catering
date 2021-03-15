@@ -17,10 +17,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <div id="root-page-elem" className="flex flex-col justify-center">
       <div className="flex">
-        <div className="z-50 md:w-84">
+        <div className="z-50 xmd:w-84">
           <SideNav/>
         </div>
-        <div className="w-full md:w-body">
+        <div className="w-full xmd:w-body">
           <Component {...pageProps} />
         </div>
       </div>

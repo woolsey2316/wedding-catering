@@ -7,8 +7,8 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 */
 function SeasonalMenu() {
   return (
-    <div className="lg:flex mt-5">
-      <div className="p-5">
+    <div className="xmd:flex xmd:justify-between xmd:items-center mt-5 max-w-1230 mx-auto">
+      <div className="p-5 max-w-615">
         <h4 className="font-parisienne text-6xl font-semibold">Seasonal Menu</h4>
         <p className="font-rubik text-gray-700 mb-5">Et harum quidem rerum 
           facilis est et expedita distinctio. Nam libero tempore, 
@@ -43,9 +43,7 @@ function SeasonalMenu() {
         </ul>
         <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2"><FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt}></FontAwesomeIcon>(01)-2345678</a>
       </div>
-      <div className="p-10">
-        <img src="home/6-1024x1024.jpg"/>
-      </div>
+      <img className="p-5 min-w-0 max-w-555 h-auto" src="home/6-1024x1024.jpg"/>
     </div>
   )
 }

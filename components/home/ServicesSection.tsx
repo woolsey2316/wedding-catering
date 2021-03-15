@@ -3,16 +3,16 @@ import React from 'react'
 function ServicesSection() {
   return (
     <>
-    <div className="p-4 bg-gray-100">
-      <div className="flex-1 mr-5 pb-16">
+    <div className="bg-gray-100">
+      <div className="flex-1 mr-5 pt-24 pb-5">
         <h1 className="font-parisienne font-semibold text-5xl text-center">Our Services</h1>
-        <p className="font-rubik text-gray-600 text-center md:px-24">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-gray-600 text-center md:px-12 max-w-570 mx-auto">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.
         </p>
       </div>
-      <div className="w-full lg:flex lg:justify-between lg:mb-12">
-        <div className="mb-5 lg:mb-0 lg:mr-4 bg-white">
+      <div className="w-full lg:flex lg:justify-center">
+        <div className="bg-white lg:max-w-570 m-4">
           <img src="home/3-1024x683.jpg"/>
           <div className="p-10">
             <h1 className="font-parisienne font-semibold text-5xl">Wedding Catering</h1>
@@ -22,7 +22,7 @@ function ServicesSection() {
             </p>
           </div>
         </div>
-        <div className="bg-white">
+        <div className="bg-white lg:max-w-570 m-4">
           <img src="home/4-1024x683.jpg"/>
           <div className="p-10">
             <h1 className="font-parisienne font-semibold text-5xl">Wedding Gifts</h1>
@@ -33,10 +33,10 @@ function ServicesSection() {
           </div>
         </div>
       </div>
-      <div className="w-full lg:grid lg:grid-cols-2 my-8 lg:items-center lg:-ml-4">
+      <div className="w-full lg:grid lg:grid-cols-2 mt-8 pb-20 lg:items-center max-w-1170 xl:mx-auto">
         <img className="max-w-100 h-auto w-full" src="home/5-1024x681.jpg"/>
-        <div className="p-10 h-full bg-white lg:-mr-4">
-          <h1 className="font-parisienne font-semibold text-5xl mb-2">Wedding Gifts</h1>
+        <div className="p-10 h-full bg-white">
+          <h1 className="font-parisienne font-semibold text-5xl mb-2">Wedding Cakes</h1>
           <p className="font-rubik text-gray-600 mb-10">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
             cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
             placeat facere.

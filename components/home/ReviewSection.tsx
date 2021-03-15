@@ -14,14 +14,14 @@ import 'react-awesome-slider/dist/styles.css';
 */
 function ReviewSection() {
   return (
-    <div className="w-full bg-cover bg-scene-tint text-center mb-24" >
-      <div className="flex flex-col items-center py-20 lg:p-20">
+    <div className="h-156 bg-cover bg-scene-tint text-center mb-24 p-20 max-w-1170 mx-auto" >
+      <div className="h-full flex flex-col items-center">
         <h1 className="font-parisienne font-semibold text-5xl text-white">What Customers Say</h1>
-        <p className="font-rubik text-white md:px-24 -mb-20">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
+        <p className="font-rubik text-white max-w-540">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil 
         </p>
         <AwesomeSlider
-          className="h-screen lg:h-auto"
+          className="h-full"
           organicArrows={false}
           buttonContentRight={
             <div className="rounded-full bg-white opacity-75 hover:opacity-100 mt-24 w-8 h-8 cursor-pointer flex flex-col justify-center items-center">
@@ -35,7 +35,7 @@ function ReviewSection() {
           }
           infinite={true}
           bullets={false}>
-          <div className="flex flex-col items-center bg-transparent">
+          <div className="h-full flex flex-col items-center bg-transparent">
             <p className="font-playfair text-5xl text-white rounded-full border-2 w-12 h-12 leading-tight my-8 mx-auto">“</p>
             <p className="font-playfair text-white text-xl italic">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor em que laudantium,
@@ -47,7 +47,7 @@ function ReviewSection() {
             </div>
             <p className="text-white font-nunito text-lg font-bold mt-3">John Travolta</p>
           </div>
-          <div className="flex flex-col items-center bg-transparent">
+          <div className="h-full flex flex-col items-center bg-transparent">
             <p className="font-playfair text-5xl text-white rounded-full border-2 w-12 h-12 leading-tight my-4 mx-auto">“</p>
             <p className="font-playfair text-white text-xl italic">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor em que laudantium,
@@ -59,7 +59,7 @@ function ReviewSection() {
             </div>
             <p className="text-white font-nunito text-lg font-bold mt-3">Kelly Clarkson</p>
           </div>
-          <div className="flex flex-col items-center bg-transparent">
+          <div className="h-full flex flex-col items-center bg-transparent">
             <p className="font-playfair text-5xl text-white rounded-full border-2 w-12 h-12 leading-tight my-8 mx-auto">“</p>
             <p className="font-playfair text-white text-xl italic">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor em que laudantium,
@@ -71,7 +71,7 @@ function ReviewSection() {
             </div>
             <p className="text-white font-nunito text-lg font-bold mt-3">Kurt Russel</p>
           </div>
-          <div className="flex flex-col items-center bg-transparent">
+          <div className="h-full flex flex-col items-center bg-transparent">
             <p className="font-playfair text-5xl text-white rounded-full border-2 w-12 h-12 leading-tight my-8 mx-auto">“</p>
             <p className="font-playfair text-white text-xl italic">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor em que laudantium,
