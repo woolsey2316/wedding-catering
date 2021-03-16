@@ -3,10 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faGem,
 } from '@fortawesome/free-regular-svg-icons'
+import {
+  faPhone,
+} from '@fortawesome/free-solid-svg-icons'
 
 function CallUsImage() {
   return (
-    <div className="bg-platter-tint bg-cover h-screen">
+    <div className="bg-platter-tint bg-center">
       <div className="w-full bg-transparent" style={{bottom: '-19px'}} data-negative="false">
         <svg className="lg:h-24 w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 100" preserveAspectRatio="none">
         <path className="fill-current text-white" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
@@ -14,13 +17,14 @@ function CallUsImage() {
         c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
         </svg>		
       </div>
-      <div className="lg:grid lg:grid-cols-2">
+      <div className="lg:grid lg:grid-cols-2 p-10">
         <div className="col-start-2 my-auto p-5">
-          <FontAwesomeIcon className="text-5xl text-white mb-5" icon={faGem}></FontAwesomeIcon>
-          <h1 className="font-parisienne text-white text-h1 font-semibold">Wedding Catering Service For Your Happy Day</h1>  
-          <p className="font-rubik text-white mt-5 mb-16">Et harum quidem rerum facilis est et expedita distinctio. 
+          <FontAwesomeIcon className="fa-3x text-white mb-5" icon={faGem}></FontAwesomeIcon>
+          <h1 className="font-parisienne text-white text-h1 font-semibold max-w-555">Wedding Catering Service For Your Happy Day</h1>  
+          <p className="font-rubik text-white mt-5 mb-16 max-w-540">Et harum quidem rerum facilis est et expedita distinctio. 
           Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
-          <a className="font-rubik cursor-pointer text-sm rounded-full font-medium text-white py-4 px-12 bg-coral hover:text-coral hover:bg-white">
+          <a className="font-rubik cursor-pointer text-sm rounded-full font-medium text-white py-4 px-8 bg-coral hover:text-coral hover:bg-white">
+            <FontAwesomeIcon className="text-inherit mr-2 fa-sm" icon={faPhone}></FontAwesomeIcon>
             (01)23456789
           </a>
         </div>
