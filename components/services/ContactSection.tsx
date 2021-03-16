@@ -11,7 +11,7 @@ import {
 
 const ContactSection = () => {
   return (
-    <>
+    <div className="bg-gray-100">
       <div className="w-full transform rotate-180" style={{bottom: '-19px'}} data-negative="false">
         <svg className="h-24 w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
         <path className="fill-current text-gray-100" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
@@ -19,10 +19,10 @@ const ContactSection = () => {
         c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
         </svg>		
       </div>
-      <div className="lg:grid lg:grid-cols-12 bg-gray-100 py-10 px-4">
+      <div className="lg:grid lg:grid-cols-12 py-10 px-4 mx-auto max-w-1170">
         <div className="col-span-6 flex">
           <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faKey}></FontAwesomeIcon>
+            <FontAwesomeIcon className="fa-lg text-white" icon={faKey}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Office Location</h1>
@@ -35,7 +35,7 @@ const ContactSection = () => {
         </div>
         <div className="col-span-6 flex">
           <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-1 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faEnvelope}></FontAwesomeIcon>
+            <FontAwesomeIcon className="fa-lg text-white" icon={faEnvelope}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Email Address</h1>
@@ -48,7 +48,7 @@ const ContactSection = () => {
         </div>
         <div className="col-span-6 flex">
           <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faPhoneAlt}></FontAwesomeIcon>
+            <FontAwesomeIcon className="fa-lg text-white" icon={faPhoneAlt}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Phone Number</h1>
@@ -61,7 +61,7 @@ const ContactSection = () => {
         </div>
         <div className="col-span-6 flex">
           <div className="flex flex-col justify-center items-center rounded-full w-16 h-16 bg-coral border-0 border-coral hover:border-2 transition-all duration 350 ease-in-out mt-5">
-            <FontAwesomeIcon className="text-3xl text-white" icon={faPaperPlane}></FontAwesomeIcon>
+            <FontAwesomeIcon className="fa-lg text-white" icon={faPaperPlane}></FontAwesomeIcon>
           </div>
           <div className="p-5 flex-1">
             <h1 className="font-nunito text-2xl font-bold mb-2">Social Connect</h1>
@@ -73,7 +73,7 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 export { ContactSection }

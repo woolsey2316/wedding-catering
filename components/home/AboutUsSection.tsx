@@ -74,7 +74,7 @@ function AboutUsSection() {
           </div>
         </a>
       </div>
-      <div className="w-full sm:w-1/4 ml-5 inline-block">
+      <div className="w-full sm:w-1/3 ml-5 inline-block">
         <p className="font-rubik text-gray-600 ml-2 mb-5 mt-12 lg:mt-0">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime 
           placeat facere.

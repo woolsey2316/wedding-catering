@@ -14,7 +14,7 @@ import 'react-awesome-slider/dist/styles.css';
 */
 function ReviewSection() {
   return (
-    <div className="h-156 bg-cover bg-scene-tint text-center mb-24 p-20 max-w-1170 mx-auto" >
+    <div className="h-168 md:h-180 bg-cover bg-scene-tint text-center mb-24 p-20 max-w-1170 mx-auto" >
       <div className="h-full flex flex-col items-center">
         <h1 className="font-parisienne font-semibold text-5xl text-white">What Customers Say</h1>
         <p className="font-rubik text-white max-w-540">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
