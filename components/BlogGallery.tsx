@@ -4,7 +4,7 @@ import { BlogTile } from './BlogTile'
 /* Blog gallery*/
 const BlogGallery = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-12 gap-8 max-w-1170 mx-auto pl-4">
       <BlogTile 
         link="blog/post-1" 
         title="Head to Toe Blueprints for Styling a Classic Themed Wedding" 

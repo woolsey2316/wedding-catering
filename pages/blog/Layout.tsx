@@ -19,9 +19,9 @@ export default function Layout({ children, meta }) {
       blockquote: BlockQuote,
       p: Text,
     }}>
-      <div className="pt-10 px-2">
+      <div className="pt-10 px-2 max-w-1170 mx-auto">
         <BlogImage meta={meta}/>
-        <div className="md:flex py-8 gap-8">
+        <div className="xl:flex py-8 gap-8">
           <div className="col-span-8">
             <MobileHeadPost meta={meta} isBlogPost />
             <BlogArticle>

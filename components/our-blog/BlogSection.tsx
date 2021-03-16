@@ -4,7 +4,7 @@ const BlogSection = () => {
   return (
     <div className="relative text-center pt-20 pb-32 mb-20 bg-gray-100">
       <h1 className="font-parisienne text-h1 font-semibold ">Our Blog</h1>
-      <p className="text-gray-700 font-rubik md:px-24 mx-auto">Et harum quidem rerum facilis est et expedita distinctio. 
+      <p className="text-gray-700 font-rubik max-w-540 mx-auto">Et harum quidem rerum facilis est et expedita distinctio. 
       Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.</p>
       <div className="absolute w-full transform rotate-180" style={{bottom: '-1px'}} data-negative="false">
         <svg className="h-12 lg:h-24 w-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
