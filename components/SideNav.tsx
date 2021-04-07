@@ -5,12 +5,11 @@ import { NavButton } from './NavButton'
 export default function SideNav() {
   const [show, setShow] = useState(false)
 
-  const showNav = show ? "translate-x-0" : "-translate-x-84"
-  const showNavBar = show ? "translate-x-0" : "-translate-x-84"
+  const showNavBar = show ? "-left-192" : "left-0"
   return (
     <>
-    <div className={`no-scroll-bar bg-green h-full xmd:shadow fixed overflow-y-scroll block w-0 ${showNav} xmd:w-84 xmd:translate-x-0 transition-all duration-500 ease-in-out`}>
-      <div className={`h-full bg-white block xmd:w-84 px-5 py-8 flex-none transform ${showNavBar} xmd:translate-x-0 transition-all duration-500 ease-in-out`}>
+    <div className={`no-scroll-bar bg-green h-full xmd:shadow fixed overflow-y-scroll block w-full ${showNavBar} xmd:left-0 xmd:w-84 xmd:translate-x-0 transition-all duration-500 ease-in-out`}>
+      <div className={`bg-white block md:w-84 px-5 py-8 flex-none transform ${showNavBar} xmd:left-0 xmd:translate-x-0 transition-all duration-500 ease-in-out`}>
         <div className="w-1/2 mx-auto">
           <img width="148" height="95" className="h-auto max-w-full" src='/logo.png' alt="logo"/>
         </div>

@@ -6,7 +6,7 @@ const ServicesSection = () => {
   return (
     <div className="max-w-1170 mx-auto">
       <div className="lg:flex items-center xl:items-stretch mt-20">
-        <img className="w-full lg:w-1/2" src="home/3-1024x683.jpg"/>
+        <img className="max-w-570 mx-auto lg:w-1/2" src="home/3-1024x683.jpg"/>
         <div className="max-w-585 p-10 bg-gray-100 lg:flex lg:flex-col lg:justify-center lg:items-start">
           <h1 className="font-parisienne font-semibold text-h2">Wedding Catering</h1>
           <p className="font-rubik text-gray-700 mb-10">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
@@ -19,7 +19,7 @@ const ServicesSection = () => {
           </a>
         </div>
       </div>
-      <div className="lg:flex items-center xl:items-stretch">
+      <div className="mb-4 sm:mb-0 lg:flex items-center xl:items-stretch">
         <div className="max-w-585 p-10 bg-gray-100 lg:flex lg:flex-col lg:justify-center lg:items-start">
           <h1 className="font-parisienne font-semibold text-h2">Wedding Gifts</h1>
           <p className="font-rubik text-gray-700 mb-10">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
@@ -31,10 +31,10 @@ const ServicesSection = () => {
             <FontAwesomeIcon className="text-sm ml-2" icon={faLongArrowAltRight}/>
           </a>
         </div>
-        <img className="w-full lg:w-1/2" src="home/4-1024x683.jpg"/>
+        <img className="max-w-570 mx-auto h-auto lg:w-1/2" src="home/4-1024x683.jpg"/>
       </div>
       <div className="lg:flex items-center xl:items-stretch mb-24">
-        <img className="w-full lg:w-1/2" src="home/5-1024x681.jpg"/>
+        <img className="max-w-570 mx-auto h-auto lg:w-1/2" src="home/5-1024x681.jpg"/>
         <div className="max-w-585 p-10 bg-gray-100 lg:flex lg:flex-col lg:justify-center lg:items-start">
           <h1 className="font-parisienne font-semibold text-h2">Wedding Gifts</h1>
           <p className="font-rubik text-gray-700 mb-10">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 

@@ -17,7 +17,7 @@ export function NavButton({setShow} : NavButtonProps) {
       className="xmd:-ml-24"
       onClick={()=> {setShow((prev: boolean) => !prev)}}
       style={{
-        position: 'absolute',
+        position: 'fixed',
         cursor: 'pointer',
         top: '0',
         width: "0",
@@ -30,7 +30,7 @@ export function NavButton({setShow} : NavButtonProps) {
         onClick={()=> {setShow((prev: boolean) => !prev)}}
         className="cursor-pointer text-white absolute z-50"
         style={{
-          position: 'absolute',
+          position: 'fixed',
           top: '7',
           left: '8',
           fontSize: '16px'

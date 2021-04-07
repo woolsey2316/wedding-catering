@@ -81,6 +81,9 @@ module.exports = {
         '168': '42rem',
         '180': '45rem',
         'body': 'calc(100% - 21rem)'
+      },
+      inset: {
+        '-192': '-48rem'
       }
     }
   },

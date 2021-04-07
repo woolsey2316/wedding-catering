@@ -42,7 +42,7 @@ const DailyMenu = () => {
         </ul>
         <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2"><FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt}></FontAwesomeIcon>(01)-2345678</a>
       </div>
-      <img className="max-w-555 min-w-0 h-auto p-4" src="services/g1e-ojs6tq3cg4k059k15pjk204bm87b2ypqcove6tleds.jpg"/>
+      <img className="max-w-full max-w-555 min-w-0 h-auto p-4" src="services/g1e-ojs6tq3cg4k059k15pjk204bm87b2ypqcove6tleds.jpg"/>
     </div>
   )
 }

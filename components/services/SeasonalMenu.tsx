@@ -6,7 +6,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 const SeasonalMenu = () => {
   return (
     <div className="lg:flex lg:items-center lg:justify-center mt-5">
-      <img className="max-w-555 min-w-0 p-10" src="home/6-1024x1024.jpg"/>
+      <img className="max-w-full h-auto mdx:max-w-555 min-w-0 p-4 mdx:p-10" src="home/6-1024x1024.jpg"/>
       <div className="p-5 max-w-615">
         <h4 className="font-parisienne text-6xl font-semibold">Seasonal Menu</h4>
         <p className="font-rubik text-gray-700 mb-5">Et harum quidem rerum 

@@ -24,9 +24,9 @@ function AboutUsSection() {
           lauda.
         </p>
       </div>
-      <div className="w-full sm:mb-0 sm:w-1/3 relative mr-1">
+      <div className="w-full sm:mb-0 sm:w-1/3 relative mr-0 sm:mr-1">
         <a href="/_next/static/media/g1e-768x512.87f7437b7e5f727b60de48830bce3ea6.jpg">
-          <div className="cursor-pointer bg-cover text-transparent shadow-inner-opaque hover:text-white hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+          <div className="mb-4 sm:mb-0 cursor-pointer bg-cover text-transparent shadow-inner-opaque hover:text-white hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
             <img className="max-w-full w-full h-auto" src="/home/g1e-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
@@ -50,9 +50,9 @@ function AboutUsSection() {
       </div>
     </div>
     <div className="flex flex-col sm:flex-row items-center p-4 mb-20 max-w-6xl mx-auto">
-      <div className="w-full sm:w-1/3 relative mr-1 inline-block">
+      <div className="w-full sm:w-1/3 relative mr-0 sm:mr-1 inline-block">
         <a href="/_next/static/media/g4-768x613.bc53d5f3697e416c0dcb3b46f34a77c7.jpg">
-          <div className="cursor-pointer text-transparent shadow-inner-opaque hover:text-white bg-cover hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
+          <div className="mb-4 sm:mb-0 cursor-pointer text-transparent shadow-inner-opaque hover:text-white bg-cover hover:shadow-inner-full text-xs hover:text-4xl transition-all duration-500 ease-in-out" >
             <img className="max-w-full w-full h-auto" src="/home/g4-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
