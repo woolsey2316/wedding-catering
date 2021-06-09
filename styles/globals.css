@@ -4,7 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+ /* Avoids flash of unstyled content */
 .no-fouc {
   visibility: hidden;
   opacity: 0;
