@@ -1,15 +1,22 @@
-module.exports = {
-  publicRuntimeConfig: {
-    APP_NAME: 'SEOBLOG',
-    API_DEVELOPMENT: 'http://localhost:8000/api',
-    PRODUCTION: false
-  }
-}
-
 const withMDX = require("@next/mdx")({
   extension: /\.mdx?$/
 });
 
 module.exports = withMDX({
-  pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"]
+  pageExtensions: ["js", "jsx", "ts", "tsx", "md", "mdx"],
+  publicRuntimeConfig: {
+    APP_NAME: 'SEOBLOG',
+    API_DEVELOPMENT: 'http://localhost:8000/api',
+    PRODUCTION: false
+  },
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.node = {
+        fs: 'empty'
+      }
+    }
+    return config
+  }
 });
+
