@@ -1,7 +1,3 @@
-import { useEffect, useState } from 'react'
-import { MDXProvider } from '@mdx-js/react'
-import Image from 'next/image'
-import { Heading, Text, Strong, BlockQuote} from '../../components/markdown-components'
 import { Footer } from '../../components'
 import { Categories } from '../../components/Categories'
 import KeepInTouch from '../../components/KeepInTouch'
@@ -24,30 +20,9 @@ interface BlogData {
   author: string
 }
 
-declare type meta = {
-  name: string
-  bloglinks: Array<BlogData>
-}
-
-interface Meta {
-  name: string
-  bloglinks: Array<BlogData>
-}
-
-interface LayoutProps {
-  meta: Meta
-}
-
 export default function Layout({ CATEGORY, BLOG_LINKS }) {
   return (
-    <MDXProvider components={{
-      img: Image,
-      h1: Heading.H1,
-      h2: Heading.H2,
-      strong: Strong,
-      blockquote: BlockQuote,
-      p: Text,
-    }}>
+    <>
       <div className="pt-10 px-4">
         <div className="grid grid-cols-1 lg:grid-cols-12 py-8 gap-8">
           <div className="lg:col-span-8 justify-center">
@@ -68,7 +43,7 @@ export default function Layout({ CATEGORY, BLOG_LINKS }) {
         </div>
       </div>
       <Footer/>
-    </MDXProvider>
+    </>
   )
 }
 
