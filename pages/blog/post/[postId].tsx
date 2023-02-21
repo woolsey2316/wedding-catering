@@ -19,13 +19,13 @@ export default function PostPage({ source, frontMatter }) {
       <div className="pt-10 px-2 max-w-1170 mx-auto">
         <BlogImage meta={frontMatter}/>
         <div className="xl:flex py-8 gap-8">
-          <div className="col-span-8">
+          <div className="col-span-12 md:col-span-8">
             <MobileHeadPost meta={frontMatter} isBlogPost />
             <BlogArticle>
               {source}
             </BlogArticle>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 md:col-span-4">
             <div className="mb-5 overflow-y-auto">
               <KeepInTouch/>
               <RecommendedBlogs/>
@@ -40,6 +40,9 @@ export default function PostPage({ source, frontMatter }) {
   )
 }
 
+// If you export a function called getStaticProps (Static Site Generation) 
+// from a page, Next.js will pre-render this page at build time using the 
+// props returned by getStaticProps.
 export const getStaticProps = async ({ params }) => {
   const postFilePath = path.join(POSTS_PATH, `${params.postId}.mdx`)
   const source = fs.readFileSync(postFilePath)
@@ -63,6 +66,8 @@ export const getStaticProps = async ({ params }) => {
   }
 }
 
+// If a page has Dynamic Routes and uses getStaticProps, it 
+// needs to define a list of paths to be statically generated.
 export const getStaticPaths = async () => {
   const paths = postFilePaths
     // Remove file extensions for page paths
