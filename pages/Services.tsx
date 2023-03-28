@@ -25,8 +25,9 @@ export default function Services() {
       <OurServices/>
       <ServicesSection/>
       <ReviewSection/>
-      {MENU_TYPES.map(info => 
+      {MENU_TYPES.map((info, index) => 
         <Menu 
+          key={index}
           menuType={info.menuType} 
           description={info.description} 
           img={info.img}

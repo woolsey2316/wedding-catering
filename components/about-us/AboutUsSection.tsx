@@ -23,8 +23,8 @@ const AboutUsSection = () => {
       <AboutUsDescription />
       <LightGrayWavyCurve yOffset="-19px" />
       <div className="lg:grid lg:grid-cols-2 lg:col-gap-8 md:px-4 lg:mt-20 max-w-1170 mx-auto">
-        {websiteInfo.map(info=> 
-          <ImageWithText heading={info.heading} description={info.description} img={info.img}></ImageWithText>
+        {websiteInfo.map((info, index)=> 
+          <ImageWithText key={index} heading={info.heading} description={info.description} img={info.img}></ImageWithText>
         )}
       </div>
     </>

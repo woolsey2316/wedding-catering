@@ -13,7 +13,7 @@ function ImageAndTitle({title, description, img, xFlip = false}: Props) {
   return (
     <div className={`lg:flex ${xFlip ? 'lg:flex-row-reverse' : ''} items-center xl:items-stretch first:mt-20`}>
       <img className="mx-auto lg:w-1/2" src={img}/>
-      <div className="max-w-585 p-10 bg-gray-100 lg:flex lg:flex-col lg:justify-center lg:items-start">
+      <div className="max-w-570 p-10 bg-gray-100 lg:flex lg:flex-col lg:justify-center lg:items-start">
         <h1 className="font-parisienne font-semibold text-h2">{title}</h1>
         <p className="font-rubik text-gray-700 mb-10">{description}
         </p>
