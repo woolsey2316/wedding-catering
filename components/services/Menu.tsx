@@ -27,7 +27,7 @@ interface Props {
   xFlip?: boolean;
   img: string
 }
-const Menu = ({menuType, description, img, xFlip = false}) => {
+const Menu = ({menuType, description, img, xFlip = false}: Props) => {
   return (
     <div className={`${xFlip ? "lg:flex-row-reverse" : ""} lg:flex lg:items-center lg:justify-center mt-5`}>
       <img className="h-auto max-w-555 min-w-0 p-4 mdx:p-10" src={img}/>

@@ -26,7 +26,6 @@ function BlogLinkContainer() {
           image={blog.image}
           link={blog.link}
           title={blog.title}
-          flexDirection='flex-row'
         />
       )}
     </ul>
