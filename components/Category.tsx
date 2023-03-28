@@ -7,7 +7,9 @@ export interface Props {
   title: string;
   amount: number;
 }
-
+/*
+  Drop down component that reveals all blog posts belonging to a category
+*/
 const Category = ({ title, amount } : Props) => {
   return (
     <div className="cursor-pointer border-b border-gray-400 flex items-center p-2 text-gray-900 hover:text-coral transition duration-300 ease-in-out">

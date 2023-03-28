@@ -2,7 +2,7 @@ import React from 'react'
 import { Category } from './Category'
 
 /* 
-  a series of links that direct to a individual category blog page
+  A series of links that direct to a individual category blog page
 */
 const Categories = () => {
   return (

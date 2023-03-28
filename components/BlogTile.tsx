@@ -9,7 +9,9 @@ interface Props {
   preview: string,
   link: string
 }
-
+/*
+  Blog post image with some accompanying info about the blog post
+*/
 const BlogTile = (props: Props) => {
   return (
     <>

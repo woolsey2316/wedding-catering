@@ -1,5 +1,8 @@
 import React from 'react'
 
+/* 
+  Subscribe to newsletter component. User enters their name and email address
+*/
 export function NewsletterSubscription() {
   return (
     <div className="mb-12">

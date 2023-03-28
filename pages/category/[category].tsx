@@ -8,7 +8,6 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { POSTS_PATH } from '../../utils/mdxUtils'
-import { loadGetInitialProps } from 'next/dist/next-server/lib/utils'
 
 interface BlogData {
   link: string;
@@ -17,7 +16,8 @@ interface BlogData {
   date?: string;
   index?: number;
   category: string;
-  author: string
+  author: string;
+  preview: string;
 }
 
 export default function Layout({ CATEGORY, BLOG_LINKS }) {
@@ -72,12 +72,19 @@ export const getStaticProps = async ({ params }) => {
 }
 
 export async function getStaticPaths() {
+  const dir = await fs.promises.opendir(POSTS_PATH)
+  let categories: Set<BlogData["category"]> = new Set()
+  for await (const dirent of dir) {
+    const postFilePath = path.join(POSTS_PATH, dirent.name)
+    const source = fs.readFileSync(postFilePath)
+    const { data } = matter(source)
+    categories.add(data.category)
+  }
+
   return {
-    paths: [
-      {  params: { category: 'photos' } },
-      {  params: { category: 'planning' } },
-      {  params: { category: 'beauty' } },
-    ],
+    paths: Array.from(categories).map(category => {
+      return {  params: { category }}
+    }),
     fallback: false
   }
 }

@@ -12,16 +12,27 @@ import { NewsletterSubscription } from '../../../components/NewsletterSubscripti
 import { RecommendedBlogs } from '../../../containers/RecommendedBlogs'
 import { MobileHeadPost } from '../../../components/MobileHeadPost'
 import { postFilePaths, POSTS_PATH } from '../../../utils/mdxUtils'
+import { MDXRemoteSerializeResult } from 'next-mdx-remote'
+import { BlogPostMetaData } from '../../../types/BlogPostMetaData'
 
-export default function PostPage({ source, frontMatter }) {
+type Props = {
+  source: MDXRemoteSerializeResult<Record<string, unknown>>;
+  frontMatter: BlogPostMetaData
+}
+/*
+  Blog post page
+
+*/
+export default function PostPage({ source, frontMatter }:Props) {
+  console.log(frontMatter)
   return (
     <>
       <div className="pt-10 px-2 max-w-1170 mx-auto">
         <BlogImage meta={frontMatter}/>
         <div className="xl:flex py-8 gap-8">
           <div className="col-span-12 md:col-span-8">
-            <MobileHeadPost meta={frontMatter} isBlogPost />
-            <BlogArticle>
+            <MobileHeadPost meta={frontMatter} />
+            <BlogArticle data={frontMatter}>
               {source}
             </BlogArticle>
           </div>

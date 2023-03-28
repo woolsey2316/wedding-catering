@@ -1,22 +1,37 @@
 import React from 'react'
-import { 
-  DailyMenu,
-  Footer } from '../components'
+import { Footer } from '../components'
 import { OurServices,
   ServicesSection,
   ReviewSection,
-  SeasonalMenu,
-  ContactSection
+  ContactSection,
+  Menu
 } from '../components/services'
 
+const MENU_TYPES = [
+  {
+    menuType: "Seasonal Menu",
+    description: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.",
+    img:"home/6-1024x1024.jpg"
+  }, {
+    menuType: "Daily Menu",
+    description: "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.",
+    img:"services/g1e-ojs6tq3cg4k059k15pjk204bm87b2ypqcove6tleds.jpg",
+    xFlip: true
+  }
+]
 export default function Services() {
   return (
     <>
       <OurServices/>
       <ServicesSection/>
       <ReviewSection/>
-      <SeasonalMenu/>
-      <DailyMenu/>
+      {MENU_TYPES.map(info => 
+        <Menu 
+          menuType={info.menuType} 
+          description={info.description} 
+          img={info.img}
+          xFlip={info.xFlip} />
+        )}
       <ContactSection/>
       <Footer/>
     </>

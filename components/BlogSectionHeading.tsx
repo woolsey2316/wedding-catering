@@ -1,5 +1,8 @@
 import React from 'react'
 
+/*
+  Website heading "blog Section"
+*/
 const BlogSectionHeading = () => {
   return (
     <div className="text-center p-20 mb-10">

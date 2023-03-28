@@ -1,21 +1,10 @@
 import React from 'react'
+import { BlogPostMetaData } from '../../types/BlogPostMetaData'
 import { HeadPost } from '../HeadPost'
-
-interface MetaInfo {
-  title: string
-  image: string
-  category: string
-  author: string
-  description: string
-  date: string
-  readTime: number
+type Props = {
+  meta: BlogPostMetaData
 }
-
-interface BlogImageProps {
-  meta: MetaInfo
-}
-
-export default function BlogImage({ meta } : BlogImageProps) {
+export default function BlogImage({ meta } : Props) {
   return (
     <div className="h-84 lg:h-screen w-full flex flex-col items-center justify-end" 
       style={{

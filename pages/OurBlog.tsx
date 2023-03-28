@@ -1,5 +1,5 @@
 import React from 'react'
-import { BlogGallery } from '../components'
+import { BlogGallery, Footer } from '../components'
 import { BlogSection } from '../components/our-blog'
 
 const OurBlog = () => {
@@ -7,6 +7,7 @@ const OurBlog = () => {
     <>
       <BlogSection/>
       <BlogGallery/>
+      <Footer/>
     </>
   )
 }

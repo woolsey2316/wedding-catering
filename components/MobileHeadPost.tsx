@@ -1,16 +1,9 @@
-interface MetaInfo {
-  title: string
-  category: string
-  author: string
-  description: string
-  date: string
-}
+import { BlogPostMetaData } from "../types/BlogPostMetaData"
 
 interface MobileHeadPostProps {
-  meta: MetaInfo
-  isBlogPost: boolean
+  meta: BlogPostMetaData
 }
-export const MobileHeadPost = ({ meta, isBlogPost } : MobileHeadPostProps) => (
+export const MobileHeadPost = ({ meta } : MobileHeadPostProps) => (
   <div className="lg:hidden text-center">
     <p className="text-coral font-rubik text-sm mb-2">{meta?.category}</p>
     <h3 className="font-nunito font-semibold text-h4">{meta?.title}</h3>

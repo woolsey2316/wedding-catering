@@ -47,15 +47,11 @@ const CommentForm = () => {
       if (user[key] === '') {
         return false
       }
-      //use key and value here
     });
     return true
   }
 
-  // dispatch an action to the redux store, updates 'user' object
   function handleSubmit(): void {
-    //console.log(`%cuser details: ${JSON.stringify(user)}`, 'color:green')
-
     setSubmitted(true)
     if (allFieldsExist()) {
       console.log("comment sent")

@@ -1,17 +1,10 @@
 import React from 'react'
+import { BlogPostMetaData } from '../types/BlogPostMetaData'
 
-interface MetaInfo {
-  title: string
-  category: string
-  author: string
-  description: string
-  date: string
+type Props = {
+  meta: BlogPostMetaData
 }
-
-interface HeadPostProps {
-  meta: MetaInfo
-}
-export const HeadPost = ({ meta } : HeadPostProps) => (
+export const HeadPost = ({ meta } : Props) => (
   <div className="hidden lg:block text-center">
     <p className="text-white font-rubik text-sm mb-2">{meta?.category}</p>
     <h3 className="font-nunito text-white font-semibold text-h4">

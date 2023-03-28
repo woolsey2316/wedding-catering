@@ -1,11 +1,9 @@
 import React from 'react'
 
 export interface Props {
-  key: number;
   link: string;
   image: string;
   title: string;
-  flexDirection: string
 }
 
 /* 
