@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "yarn run build && now ./build --name=wedding-blog-spa"
+    "deploy": "yarn run build && now ./build --name=wedding-blog-spa",
+    "now-build": "next build"
   },
   "dependencies": {
     "@fortawesome/fontawesome-common-types": "^6.5.1",
