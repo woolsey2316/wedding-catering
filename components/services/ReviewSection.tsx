@@ -12,6 +12,7 @@ import 'react-awesome-slider/dist/styles.css';
 import WhiteWavyCurve from '../wavy-curve/WhiteWavyCurve';
 import BottomWhiteWavyCurve from '../wavy-curve/BottomWhiteWavyCurve';
 import CustomerReview from './CustomerReview';
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 const CUSTOMER_REVIEW = [
   {
     review: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor em que laudantium, totam rem aperiam, eaque ipsa quae ab illo, viva la vida.",
@@ -37,17 +38,18 @@ const ReviewSection = () => {
         <p className="font-rubik text-white max-w-540 px-4">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, 
           cum soluta nobis est eligendi optio cumque nihil 
         </p>
+        {/* @ts-expect-error Server Component */}
         <AwesomeSlider
           className="px-4 h-132"
           organicArrows={false}
           buttonContentRight={
             <div className="rounded-full bg-white opacity-75 hover:opacity-100 w-8 h-8 cursor-pointer flex flex-col justify-center items-center">
-              <FontAwesomeIcon className="text-gray-900" icon={faChevronRight}/>
+              <FontAwesomeIcon className="text-gray-900" icon={faChevronRight as IconProp}/>
             </div>
           }
           buttonContentLeft={
             <div className="rounded-full bg-white opacity-75 hover:opacity-100 w-8 h-8 cursor-pointer flex flex-col justify-center items-center">
-              <FontAwesomeIcon className="text-gray-900" icon={faChevronLeft}/>
+              <FontAwesomeIcon className="text-gray-900" icon={faChevronLeft as IconProp}/>
             </div>
           }
           infinite={true}

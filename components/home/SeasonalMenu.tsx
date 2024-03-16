@@ -2,6 +2,7 @@ import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
 /*
   Menu on the home page
 */
@@ -41,7 +42,7 @@ function SeasonalMenu() {
             <p className="font-semibold text-coral text-xl font-rubik">$15</p>
           </li>
         </ul>
-        <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2"><FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt}></FontAwesomeIcon>(01)-2345678</a>
+        <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2"><FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt as IconProp}></FontAwesomeIcon>(01)-2345678</a>
       </div>
       <img className="p-5 min-w-0 max-w-full mdx:max-w-555 h-auto" src="home/6-1024x1024.jpg"/>
     </div>

@@ -6,6 +6,9 @@ import {
   faPhoneAlt
 } from '@fortawesome/free-solid-svg-icons'
 
+import {
+  IconProp,
+} from '@fortawesome/fontawesome-svg-core'
 /*
   About Us section at home page
 */
@@ -30,7 +33,7 @@ function AboutUsSection() {
             <img className="max-w-full w-full h-auto" src="/home/g1e-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
-              icon={faExpandArrowsAlt}
+              icon={faExpandArrowsAlt as IconProp}
               style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
             />
           </div>
@@ -42,7 +45,7 @@ function AboutUsSection() {
             <img className="max-w-full w-full h-auto" src="/home/g2-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
-              icon={faExpandArrowsAlt}
+              icon={faExpandArrowsAlt as IconProp}
               style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
               />
           </div>
@@ -56,7 +59,7 @@ function AboutUsSection() {
             <img className="max-w-full w-full h-auto" src="/home/g4-768x512.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
-              icon={faExpandArrowsAlt}
+              icon={faExpandArrowsAlt as IconProp}
               style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
               />
           </div>
@@ -68,7 +71,7 @@ function AboutUsSection() {
             <img className="w-full h-auto" src="/home/g3-768x513.jpg"/>
             <FontAwesomeIcon
               className="parent-hover:size-0 absolute"
-              icon={faExpandArrowsAlt}
+              icon={faExpandArrowsAlt as IconProp}
               style={{ top: 'calc(50% - 0.5em)', left: 'calc(50% - 0.5em)' }}
               />
           </div>
@@ -83,7 +86,7 @@ function AboutUsSection() {
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
           lauda.
         </p>
-        <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2"><FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt}></FontAwesomeIcon>(01)-2345678</a>
+        <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2"><FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt as IconProp}></FontAwesomeIcon>(01)-2345678</a>
       </div>
     </div>
     <div className="w-full lg:w-full transform rotate-180" style={{bottom: '-19px'}} data-negative="false">

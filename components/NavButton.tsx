@@ -7,6 +7,10 @@ import {
   faBars,
 } from '@fortawesome/free-solid-svg-icons'
 
+import {
+  IconProp,
+} from '@fortawesome/fontawesome-svg-core'
+
 interface NavButtonProps {
   setShow: Function
 }
@@ -35,7 +39,7 @@ export function NavButton({setShow} : NavButtonProps) {
           left: '8',
           fontSize: '16px'
         }}
-        icon={faBars}
+        icon={faBars as IconProp}
         />
     </>
   )

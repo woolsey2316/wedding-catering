@@ -2,6 +2,7 @@ import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons'
 import React from 'react'
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
 
 interface Props {
   title: string;
@@ -19,7 +20,7 @@ function ImageAndTitle({title, description, img, xFlip = false}: Props) {
         </p>
         <a className="cursor-pointer py-3 px-8 rounded-full font-rubik text-sm font-medium bg-coral text-white hover:text-coral hover:bg-white transition-all duration-500 ease-in-out">
           Call Us Now
-          <FontAwesomeIcon className="text-sm ml-2" icon={faLongArrowAltRight}/>
+          <FontAwesomeIcon className="text-sm ml-2" icon={faLongArrowAltRight as IconProp}/>
         </a>
       </div>
     </div>

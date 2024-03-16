@@ -3,6 +3,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons'
 import MenuItem from './MenuItem'
+import { IconProp } from '@fortawesome/fontawesome-svg-core'
 const MENU = [
   {
     food: "Finger Foods",
@@ -41,7 +42,7 @@ const Menu = ({menuType, description, img, xFlip = false}: Props) => {
         )}
         </ul>
         <a className="flex items-center w-48 text-white cursor-pointer font-bold bg-coral hover:text-coral rounded-full hover:bg-white transition-all duration-300 ease-in-out py-3 px-8 ml-2">
-          <FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt}></FontAwesomeIcon>(01)-2345678
+          <FontAwesomeIcon className="mr-3 mt-1" icon={faPhoneAlt as IconProp}></FontAwesomeIcon>(01)-2345678
         </a>
       </div>
     </div>

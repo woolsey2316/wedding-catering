@@ -14,6 +14,11 @@ import {
 
 } from '@fortawesome/free-solid-svg-icons'
 import CheckListItem from './CheckListItem'
+
+import {
+  IconProp,
+} from '@fortawesome/fontawesome-svg-core'
+
 const FEATURE_INFO = [
   {
     icon:faCheck,
