@@ -3,6 +3,7 @@ import { LandingPage, AboutUsSection, ServicesSection, SeasonalMenu, ReviewSecti
 import { Menu } from '../components/services'
 
 export default function Home() {
+  console.log(process.env.NEXT_PUBLIC_BASE_URL)
   return (
     <>
       <LandingPage/>
